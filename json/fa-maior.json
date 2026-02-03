@@ -2,376 +2,351 @@
     {
         "numero": 20,
         "titulo": "Teu Espírito derrama",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 72,
             "maximo": 84
         },
         "partitura": {
-        "tipo": "jpeg",
-        "arquivo": "020.jpeg"
+            "tipo": "png",
+            "arquivo": "020.png"
         }
     },
     {
         "numero": 54,
         "titulo": "Um tesouro glorioso achei",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 66,
             "maximo": 88
         },
         "partitura": {
-        "tipo": "jpeg",
-        "arquivo": "054.jpeg"
+            "tipo": "png",
+            "arquivo": "054.png"
         }
     },
     {
         "numero": 133,
-    "titulo": "Quão bom e quão suave é...",
-        "tonalidade": "Fá Maior",
+        "titulo": "Quão bom e quão suave é...",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 88,
             "maximo": 112
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "133.jpeg"
+          "tipo": "png",
+          "arquivo": "133.png"
         }
     },
     {
         "numero": 135,
         "titulo": "Bendito o Rei que veio do céu!",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "Majestoso",
+        "interpretacao": "majestoso",
         "andamento": {
             "minimo": 72,
             "maximo": 84
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "135.jpeg"
+          "tipo": "png",
+          "arquivo": "135.png"
         }
     },
     {
         "numero": 140,
         "titulo": "Sou feliz",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 66,
             "maximo": 84
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "140.jpeg"
+          "tipo": "png",
+          "arquivo": "140.png"
         }
     },
     {
         "numero": 235,
         "titulo": "Um amor imenso",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 84,
             "maximo": 104
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "235.jpeg"
+          "tipo": "png",
+          "arquivo": "235.png"
         }
     },
     {
         "numero": 241,
         "titulo": "A Justiça divina",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 66,
             "maximo": 84
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "241.jpeg"
+          "tipo": "png",
+          "arquivo": "241.png"
         }
     },
     {
         "numero": 244,
         "titulo": "Cristo intercede por ti",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 66,
             "maximo": 84
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "244.jpeg"
+          "tipo": "png",
+          "arquivo": "244.png"
         }
     },
     {
         "numero": 254,
         "titulo": "De Jesus a graça divina",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 52,
             "maximo": 66
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "254.jpeg"
+          "tipo": "png",
+          "arquivo": "254.png"
         }
     },
     {
         "numero": 281,
         "titulo": "Soldados valorosos nós somos",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 88,
             "maximo": 100
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "281.jpeg"
+          "tipo": "png",
+          "arquivo": "281.png"
         }
     },
     {
         "numero": 284,
         "titulo": "Louvor nos céus altíssimos",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 66,
             "maximo": 80
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "284.jpeg"
+          "tipo": "png",
+          "arquivo": "284.png"
         }
     },
     {
         "numero": 345,
         "titulo": "Regozijo-me em falar do Salvador",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 69,
             "maximo": 84
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "345.jpeg"
+          "tipo": "png",
+          "arquivo": "345.png"
         }
     },
     {
         "numero": 366,
         "titulo": "Pela fé tereis vitória",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 69,
             "maximo": 88
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "366.jpeg"
+          "tipo": "png",
+          "arquivo": "366.png"
         }
     },
     {
         "numero": 402,
         "titulo": "Ó irmãos, a Deus devemos...",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 60,
             "maximo": 80
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "402.jpeg"
+          "tipo": "png",
+          "arquivo": "402.png"
         }
     },
     {
         "numero": 424,
         "titulo": "Ó Jesus, por nós morreste",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 58,
             "maximo": 80
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "424.jpeg"
+          "tipo": "png",
+          "arquivo": "424.png"
         }
     },
     {
         "numero": 440,
         "titulo": "Lembra-te do teu Criador!",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 63,
             "maximo": 92
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "440.jpeg"
+          "tipo": "png",
+          "arquivo": "440.png"
         }
     },
     {
         "numero": 460,
         "titulo": "Vamos todos juntos cantar",
-        "tonalidade": "Fá Maior",
         "compasso": "4/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 69,
             "maximo": 88
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "460.jpeg"
+          "tipo": "png",
+          "arquivo": "460.png"
         }
     },
     {
         "numero": 39,
         "titulo": "Eu desejo, Senhor",
-        "tonalidade": "Fá Maior",
         "compasso": "3/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 60,
             "maximo": 72
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "039.jpeg"
+          "tipo": "png",
+          "arquivo": "039.png"
         }
     },
     {
         "numero": 59,
         "titulo": "Faz-me mais perseverante",
-        "tonalidade": "Fá Maior",
         "compasso": "3/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 60,
             "maximo": 76
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "059.jpeg"
+          "tipo": "png",
+          "arquivo": "059.png"
         }
     },
     {
         "numero": 64,
         "titulo": "Tu, que vives sem destino",
-        "tonalidade": "Fá Maior",
         "compasso": "3/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 69,
             "maximo": 88
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "064.jpeg"
+          "tipo": "png",
+          "arquivo": "064.png"
         }
     },
     {
         "numero": 104,
         "titulo": "Santo, Santo és, Senhor",
-        "tonalidade": "Fá Maior",
         "compasso": "3/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 69,
             "maximo": 84
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "104.jpeg"
+          "tipo": "png",
+          "arquivo": "104.png"
         }
     },
     {
         "numero": 239,
         "titulo": "Eis que a noite é passada",
-        "tonalidade": "Fá Maior",
         "compasso": "3/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 60,
             "maximo": 76
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "239.jpeg"
+          "tipo": "png",
+          "arquivo": "239.png"
         }
     },
     {
         "numero": 357,
         "titulo": "Face a face O verei",
-        "tonalidade": "Fá Maior",
         "compasso": "3/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 56,
             "maximo": 72
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "357.jpeg"
+          "tipo": "png",
+          "arquivo": "357.png"
         }
     },
     {
         "numero": 428,
         "titulo": "O dia de Cristo bem perto está",
-        "tonalidade": "Fá Maior",
         "compasso": "3/4",
-        "interpretacao": "Funeral",
+        "interpretacao": "funeral",
         "andamento": {
             "minimo": 56,
             "maximo": 60
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "428.jpeg"
+          "tipo": "png",
+          "arquivo": "428.png"
         }
     },
     {
         "numero": 468,
-        "titulo": "Eu desejo, Senhor",
-        "tonalidade": "Fá Maior",
+        "titulo": "Toda a criança...",
         "compasso": "3/4",
-        "interpretacao": "",
+        "interpretacao": null,
         "andamento": {
             "minimo": 60,
             "maximo": 72
         },
         "partitura": {
-          "tipo": "jpeg",
-          "arquivo": "039.jpeg"
+          "tipo": "png",
+          "arquivo": "468.png"
         }
     },
 ]
