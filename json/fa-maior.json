@@ -391,4 +391,186 @@
           "arquivo": "014.png"
         }
     },
+    {
+        "numero": 30,
+        "titulo": "Confiarei sempre no Senhor",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 100,
+            "maximo": 132
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "030.png"
+        }
+    },
+    {
+        "numero": 47,
+        "titulo": "Sublime é o perdão!",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 120,
+            "maximo": 152
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "047.png"
+        }
+    },
+    {
+        "numero": 60,
+        "titulo": "Oh! Vem a Jesus",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 116,
+            "maximo": 132
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "060.png"
+        }
+    },
+    {
+        "numero": 107,
+        "titulo": "O fim de tudo chegará",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 40,
+            "maximo": 50
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "107.png"
+        }
+    },
+    {
+        "numero": 125,
+        "titulo": "Mais grato a Ti",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 96,
+            "maximo": 120
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "125.png"
+        }
+    },
+    {
+        "numero": 140,
+        "titulo": "Sou feliz",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 84
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "140.png"
+        }
+    },
+    {
+        "numero": 223,
+        "titulo": "Muitos, por fé, aceitaram Jesus",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 104,
+            "maximo": 132
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "223.png"
+        }
+    },
+    {
+        "numero": 257,
+        "titulo": "Remiu-nos por graça",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 116,
+            "maximo": 144
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "257.png"
+        }
+    },
+    {
+        "numero": 268,
+        "titulo": "Ó Deus bendito",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 126,
+            "maximo": 152
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "268.png"
+        }
+    },
+    {
+        "numero": 326,
+        "titulo": "Sempre a Cristo fiéis",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 100,
+            "maximo": 120
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "326.png"
+        }
+    },
+    {
+        "numero": 383,
+        "titulo": "Cristo é a Estrela",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 104,
+            "maximo": 132
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "383.png"
+        }
+    },
+    {
+        "numero": 430,
+        "titulo": "Preciosa é, aos olhos do Criador",
+        "compasso": "6/8",
+        "interpretacao": "funeral",
+        "andamento": {
+            "minimo": 96,
+            "maximo": 112
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "430.png"
+        }
+    },
+    {
+        "numero": 14,
+        "titulo": "Manda os Teus dons celestes",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 144
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "014.png"
+        }
+    },
 ]
