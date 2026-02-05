@@ -349,4 +349,46 @@
           "arquivo": "468.png"
         }
     },
+    {
+        "numero": 208,
+        "titulo": "Conserva a paz, ó minha alma",
+        "compasso": "2/2",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 44,
+            "maximo": 54
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "208.png"
+        }
+    },
+    {
+        "numero": 261,
+        "titulo": "Vivo por Cristo",
+        "compasso": "2/2",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 50,
+            "maximo": 66
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "261.png"
+        }
+    },
+    {
+        "numero": 14,
+        "titulo": "Manda os Teus dons celestes",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 144
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "014.png"
+        }
+    },
 ]
