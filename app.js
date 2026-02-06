@@ -112,12 +112,15 @@ function applyFilters() {
 }
 
 function renderResults() {
+  const activeFilter = Boolean(state.filters.numberQuery.trim() || state.filters.timeSignature || state.filters.titleQuery.trim())
+
   el.resultsBody.innerHTML = ''
   el.cards.innerHTML = ''
 
   if (!state.filtered.length) {
     el.resultsSection.hidden = true
     renderStatus('Nenhum hino encontrado com os filtros informados.')
+    renderStatus(activeFilter ? 'Nenhum hino encontrado com os filtros informados.' : 'Preencha ao menos um filtro para listar hinos desta tonalidade.')
     return
   }
 
@@ -157,6 +160,7 @@ async function loadKeyData() {
       if (response.status === 404) throw new Error('Tonalidade ainda não cadastrada.')
       throw new Error(`Falha ao carregar ${key.file} (HTTP ${response.status}).`)
     }
+    if (!response.ok) throw new Error(`Falha ao carregar ${key.file} (HTTP ${response.status}).`)
     const data = await response.json()
     if (!Array.isArray(data)) throw new Error('JSON inválido: era esperado um array de hinos.')
 
