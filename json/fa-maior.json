@@ -560,9 +560,9 @@
         }
     },
     {
-        "numero": 14,
-        "titulo": "Manda os Teus dons celestes",
-        "compasso": "6/8",
+        "numero": 44,
+        "titulo": "Sol da Justiça",
+        "compasso": "9/8",
         "interpretacao": null,
         "andamento": {
             "minimo": 112,
@@ -570,7 +570,77 @@
         },
         "partitura": {
           "tipo": "png",
-          "arquivo": "014.png"
+          "arquivo": "044.png"
         }
     },
+    {
+        "numero": 399,
+        "titulo": "Sou a Videira",
+        "compasso": "9/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 120,
+            "maximo": 144
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "399.png"
+        }
+    },
+    {
+        "numero": 42,
+        "titulo": "Ó minha alma, por que te abates?",
+        "compasso": "12/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 50,
+            "maximo": 60
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "042.png"
+        }
+    },
+    {
+        "numero": 49,
+        "titulo": "Venho adorar-Te, santo Criador",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 108,
+            "maximo": 132
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "049.png"
+        }
+    },
+    {
+        "numero": 197,
+        "titulo": "Senhor, por Teu poder",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 84,
+            "maximo": 104
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "197.png"
+        }
+    },
+    {
+        "numero": 453,
+        "titulo": "Consagrados sejamos a Deus",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 88,
+            "maximo": 116
+        },
+        "partitura": {
+          "tipo": "png",
+          "arquivo": "453.png"
+        }
+    }
 ]
