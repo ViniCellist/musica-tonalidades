@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca de Hinos</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-container">
+      <header>
+        <h1>Busca de Hinos por Tonalidade</h1>
+        <p>Frontend local usando arquivos JSON por tonalidade.</p>
+      </header>
+
+      <section class="filters-grid">
+        <div class="field-group">
+          <label for="numberQuery">Número do Hino</label>
+          <input id="numberQuery" type="text" inputmode="numeric" placeholder="Ex: 39" />
+          <small>Busca parcial por número (ex.: 3 encontra 3, 30-39...)</small>
+        </div>
+
+        <div class="field-group">
+          <label>Tonalidade</label>
+          <div class="key-selector">
+            <button id="keyUp" type="button" aria-label="Mais sustenidos">▲</button>
+            <button id="keyDown" type="button" aria-label="Mais bemóis">▼</button>
+            <div class="key-indicator">
+              <strong id="keyAccidental"></strong>
+              <span id="keyLabel"></span>
+            </div>
+          </div>
+          <small>▲ adiciona sustenido/reduz bemol • ▼ adiciona bemol/reduz sustenido</small>
+        </div>
+
+        <div class="field-group">
+          <label for="timeSignature">Fórmula de Compasso</label>
+          <select id="timeSignature">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="titleQuery">Título do Hino</label>
+          <input id="titleQuery" type="text" placeholder="Digite parte do título" />
+        </div>
+      </section>
+
+      <section id="status" class="status">Carregando...</section>
+
+      <section id="resultsSection" hidden>
+        <div class="results-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Número</th>
+                <th>Título</th>
+                <th>Compasso</th>
+                <th>Andamento</th>
+              </tr>
+            </thead>
+            <tbody id="resultsBody"></tbody>
+          </table>
+        </div>
+        <div id="cards" class="cards"></div>
+      </section>
+    </main>
+
+    <div id="modalBackdrop" class="modal-backdrop" hidden>
+      <div class="modal" role="dialog" aria-modal="true">
+        <header>
+          <h2 id="modalTitle"></h2>
+          <button id="closeModal" type="button">✕</button>
+        </header>
+        <div class="modal-controls">
+          <button id="zoomOut" type="button">-</button>
+          <span id="zoomValue">100%</span>
+          <button id="zoomIn" type="button">+</button>
+        </div>
+        <div class="score-container">
+          <img id="scoreImage" alt="Partitura" />
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
