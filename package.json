@@ -1,0 +1,11 @@
+{
+  "name": "musica-tonalidades",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js",
+    "preview": "node scripts/preview.js"
+  },
+  "type": "module"
+}

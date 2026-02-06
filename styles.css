@@ -1,0 +1,30 @@
+[hidden] { display: none !important; }
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+body { margin: 0; background: #f3f4f6; color: #111827; }
+.app-container { max-width: 1100px; margin: auto; padding: 1rem; }
+.filters-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0; }
+.field-group, .status, .results-table-wrap, .card { background: white; border: 1px solid #e5e7eb; border-radius: 10px; padding: .85rem; }
+label { font-weight: 600; display: block; margin-bottom: .35rem; }
+input, select, button { font: inherit; }
+input, select { width: 100%; padding: .5rem; border: 1px solid #d1d5db; border-radius: 8px; }
+small { display: block; margin-top: .35rem; color: #4b5563; }
+.key-selector { display: flex; gap: .5rem; align-items: center; }
+.key-indicator { background: #eff6ff; padding: .4rem .6rem; border-radius: 8px; display: flex; flex-direction: column; }
+.status.error { background: #fef2f2; color: #991b1b; border-color: #fecaca; }
+.results-table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: .75rem; border-bottom: 1px solid #e5e7eb; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: #f9fafb; }
+.cards { display: none; gap: .8rem; margin-top: .8rem; }
+.modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.modal { background: white; width: min(1000px, 100%); max-height: 90vh; border-radius: 12px; padding: 1rem; overflow: hidden; }
+.modal header { display: flex; justify-content: space-between; align-items: center; }
+.modal-controls { display: flex; align-items: center; gap: .5rem; margin: .5rem 0; }
+.score-container { overflow: auto; max-height: 70vh; border: 1px solid #e5e7eb; }
+.score-container img { transform-origin: top left; max-width: none; }
+@media (max-width: 768px) {
+  .filters-grid { grid-template-columns: 1fr; }
+  .results-table-wrap { display: none; }
+  .cards { display: grid; }
+}
