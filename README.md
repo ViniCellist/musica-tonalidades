@@ -21,6 +21,7 @@ npm run preview
 ## Comportamento de busca
 
 - Filtros opcionais e combináveis.
+- Se nenhum filtro de texto/compasso for informado, a listagem mostra todos os hinos da tonalidade selecionada.
 - Número do hino: busca parcial.
 - Título: case-insensitive e sem acentos.
 - Lista ordenada por número crescente.
@@ -45,3 +46,15 @@ Formato de item no JSON:
   "partitura": { "tipo": "png", "arquivo": "039.png" }
 }
 ```
+
+
+## Hospedagem (GitHub Pages)
+
+O repositório já está preparado com workflow em `.github/workflows/deploy-pages.yml`.
+
+1. Suba este código para o GitHub na branch `main` (ou `master`).
+2. No GitHub, acesse **Settings > Pages** e configure **Build and deployment: GitHub Actions**.
+3. Faça push na branch principal.
+4. O workflow fará build (`npm run build`) e publicação automática da pasta `dist`.
+
+Depois disso, a aplicação ficará disponível na URL de Pages do repositório.
