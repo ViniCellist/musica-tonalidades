@@ -80,6 +80,38 @@ const el = {
   closeModal: document.getElementById('closeModal'),
 }
 
+function assertElements() {
+  const required = [
+    'status',
+    'resultsSection',
+    'resultsBody',
+    'cards',
+    'numberQuery',
+    'titleQuery',
+    'timeSignature',
+    'keyUp',
+    'keyDown',
+    'keyAccidental',
+    'keyLabel',
+    'modalBackdrop',
+    'modalTitle',
+    'scoreImage',
+    'zoomOut',
+    'zoomIn',
+    'zoomValue',
+    'closeModal',
+  ]
+
+  const missing = required.filter((k) => !el[k])
+  if (missing.length) {
+    console.error('IDs faltando no HTML:', missing)
+    renderStatus(`IDs faltando no HTML: ${missing.join(', ')}`, true)
+    return false
+  }
+  return true
+}
+
+
 /* ========= HELPERS ========= */
 
 function normalizeText(value) {
@@ -392,9 +424,11 @@ function bindEvents() {
 /* ========= INIT ========= */
 
 function init() {
+  if (!assertElements()) return
   renderKey()
   bindEvents()
   loadKeyData()
 }
 
-init()
+
+document.addEventListener('DOMContentLoaded', init)
