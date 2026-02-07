@@ -6,6 +6,7 @@ const KEY_STEPS = [
   { id: -3, label: 'Mi♭ Maior', accidental: '3 ♭', file: 'mib-maior.json' },
   { id: -2, label: 'Si♭ Maior', accidental: '2 ♭', file: 'sib-maior.json' },
   { id: -1, label: 'Fá Maior', accidental: '1 ♭', file: 'fa-maior.json' },
+  { id: 0, label: 'Dó Maior', accidental: 'Sem acidentes', file: null },
   { id: 0, label: 'Dó Maior', accidental: 'Sem acidentes', file: 'do-maior.json' },
   { id: 1, label: 'Sol Maior', accidental: '1 #', file: 'sol-maior.json' },
   { id: 2, label: 'Ré Maior', accidental: '2 #', file: 're-maior.json' },
@@ -28,6 +29,8 @@ const state = {
 }
 
 
+const appBasePath = window.__APP_BASE_PATH__ || new URL('.', window.location.href).pathname
+const appBaseUrl = new URL(appBasePath, window.location.origin)
 const appBaseUrl = new URL('.', window.location.href)
 
 function assetPath(relativePath) {

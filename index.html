@@ -5,6 +5,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Busca de Hinos</title>
+    <script>
+      (function bootstrapAssets() {
+        function inferBasePath() {
+          const { hostname, pathname } = window.location
+          const parts = pathname.split('/').filter(Boolean)
+          const lastPart = parts[parts.length - 1] || ''
+          const hasFileExtension = /\.[a-z0-9]+$/i.test(lastPart)
+
+          if (hostname.endsWith('github.io') && parts.length > 0) {
+            return `/${parts[0]}/`
+          }
+
+          if (hasFileExtension) {
+            const idx = pathname.lastIndexOf('/')
+            return idx >= 0 ? pathname.slice(0, idx + 1) : '/'
+          }
+
+          return pathname.endsWith('/') ? pathname : `${pathname}/`
+        }
+
+        const basePath = inferBasePath()
+        window.__APP_BASE_PATH__ = basePath
+
+        const cssLink = document.createElement('link')
+        cssLink.rel = 'stylesheet'
+        cssLink.href = `${basePath}styles.css`
+        document.head.appendChild(cssLink)
+      })()
+    </script>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
@@ -94,6 +123,14 @@
       </div>
     </div>
 
+    <script>
+      (function loadAppScript() {
+        const appScript = document.createElement('script')
+        appScript.type = 'module'
+        appScript.src = `${window.__APP_BASE_PATH__ || '/'}app.js`
+        document.body.appendChild(appScript)
+      })()
+    </script>
     <script type="module" src="./app.js"></script>
     <script type="module" src="/app.js"></script>
   </body>
