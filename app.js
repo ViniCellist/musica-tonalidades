@@ -27,6 +27,14 @@ const state = {
   selectedHymn: null,
 }
 
+
+const appBaseUrl = new URL('.', window.location.href)
+
+function assetPath(relativePath) {
+  return new URL(relativePath, appBaseUrl).toString()
+}
+
+
 const el = {
   status: document.getElementById('status'),
   resultsSection: document.getElementById('resultsSection'),
@@ -172,6 +180,7 @@ async function loadKeyData() {
   }
 
   try {
+    const response = await fetch(assetPath(`json/${key.file}`))
     const response = await fetch(`/json/${key.file}`)
     if (!response.ok) {
       if (response.status === 404) throw new Error('Tonalidade ainda não cadastrada.')
@@ -199,6 +208,7 @@ function openScoreModal(hino) {
   }
 
   if (type === 'pdf') {
+    window.open(assetPath(`images/${file}`), '_blank', 'noopener,noreferrer')
     window.open(`/images/${file}`, '_blank', 'noopener,noreferrer')
     return
   }
@@ -211,6 +221,7 @@ function openScoreModal(hino) {
   state.selectedHymn = hino
   state.zoom = 1
   el.modalTitle.textContent = `${hino.numero} - ${hino.titulo}`
+  el.scoreImage.src = assetPath(`images/${file}`)
   el.scoreImage.src = `/images/${file}`
   el.scoreImage.style.transform = 'scale(1)'
   el.zoomValue.textContent = '100%'
