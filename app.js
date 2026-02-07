@@ -7,6 +7,7 @@ const KEY_STEPS = [
   { id: -2, label: 'Si♭ Maior', accidental: '2 ♭', file: 'sib-maior.json' },
   { id: -1, label: 'Fá Maior', accidental: '1 ♭', file: 'fa-maior.json' },
   { id: 0, label: 'Dó Maior', accidental: 'Sem acidentes', file: null },
+  { id: 0, label: 'Dó Maior', accidental: 'Sem acidentes', file: 'do-maior.json' },
   { id: 1, label: 'Sol Maior', accidental: '1 #', file: 'sol-maior.json' },
   { id: 2, label: 'Ré Maior', accidental: '2 #', file: 're-maior.json' },
   { id: 3, label: 'Lá Maior', accidental: '3 #', file: 'la-maior.json' },
@@ -30,6 +31,7 @@ const state = {
 
 const appBasePath = window.__APP_BASE_PATH__ || new URL('.', window.location.href).pathname
 const appBaseUrl = new URL(appBasePath, window.location.origin)
+const appBaseUrl = new URL('.', window.location.href)
 
 function assetPath(relativePath) {
   return new URL(relativePath, appBaseUrl).toString()
@@ -58,6 +60,8 @@ const el = {
   themeToggle: document.getElementById('themeToggle'),
 }
 
+
+}
 
 function normalizeText(value) {
   return (value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim()
@@ -134,12 +138,15 @@ function applyFilters() {
 }
 
 function renderResults() {
+  const activeFilter = Boolean(state.filters.numberQuery.trim() || state.filters.timeSignature || state.filters.titleQuery.trim())
+
   el.resultsBody.innerHTML = ''
   el.cards.innerHTML = ''
 
   if (!state.filtered.length) {
     el.resultsSection.hidden = true
     renderStatus('Nenhum hino encontrado com os filtros informados.')
+    renderStatus(activeFilter ? 'Nenhum hino encontrado com os filtros informados.' : 'Preencha ao menos um filtro para listar hinos desta tonalidade.')
     return
   }
 
@@ -149,12 +156,14 @@ function renderResults() {
   state.filtered.forEach((hino) => {
     const row = document.createElement('tr')
     row.innerHTML = `<td>${hino.numero ?? '-'}</td><td>${hino.titulo ?? '-'}</td><td>${hino.compasso ?? '-'}</td><td>${formatAndamento(hino.andamento)}</td><td>${getAverageAndamento(hino.andamento)}</td>`
+    row.innerHTML = `<td>${hino.numero ?? '-'}</td><td>${hino.titulo ?? '-'}</td><td>${hino.compasso ?? '-'}</td><td>${formatAndamento(hino.andamento)}</td>`
     row.addEventListener('click', () => openScoreModal(hino))
     el.resultsBody.appendChild(row)
 
     const card = document.createElement('article')
     card.className = 'card'
     card.innerHTML = `<h3>${hino.numero ?? '-'} - ${hino.titulo ?? '-'}</h3><p><strong>Compasso:</strong> ${hino.compasso ?? '-'}</p><p><strong>Andamento:</strong> ${formatAndamento(hino.andamento)}</p><p><strong>Média:</strong> ${getAverageAndamento(hino.andamento)}</p>`
+    card.innerHTML = `<h3>${hino.numero ?? '-'} - ${hino.titulo ?? '-'}</h3><p><strong>Compasso:</strong> ${hino.compasso ?? '-'}</p><p><strong>Andamento:</strong> ${formatAndamento(hino.andamento)}</p>`
     card.addEventListener('click', () => openScoreModal(hino))
     el.cards.appendChild(card)
   })
@@ -175,10 +184,12 @@ async function loadKeyData() {
 
   try {
     const response = await fetch(assetPath(`json/${key.file}`))
+    const response = await fetch(`/json/${key.file}`)
     if (!response.ok) {
       if (response.status === 404) throw new Error('Tonalidade ainda não cadastrada.')
       throw new Error(`Falha ao carregar ${key.file} (HTTP ${response.status}).`)
     }
+    if (!response.ok) throw new Error(`Falha ao carregar ${key.file} (HTTP ${response.status}).`)
     const data = await response.json()
     if (!Array.isArray(data)) throw new Error('JSON inválido: era esperado um array de hinos.')
 
@@ -201,6 +212,7 @@ function openScoreModal(hino) {
 
   if (type === 'pdf') {
     window.open(assetPath(`images/${file}`), '_blank', 'noopener,noreferrer')
+    window.open(`/images/${file}`, '_blank', 'noopener,noreferrer')
     return
   }
 
@@ -213,6 +225,7 @@ function openScoreModal(hino) {
   state.zoom = 1
   el.modalTitle.textContent = `${hino.numero} - ${hino.titulo}`
   el.scoreImage.src = assetPath(`images/${file}`)
+  el.scoreImage.src = `/images/${file}`
   el.scoreImage.style.transform = 'scale(1)'
   el.zoomValue.textContent = '100%'
   el.modalBackdrop.hidden = false
