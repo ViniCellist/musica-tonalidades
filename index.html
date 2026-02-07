@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="pt-BR" data-theme="light">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Busca de Hinos</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <main class="app-container">
@@ -16,6 +18,9 @@
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Alternar tema">
           🌙 Tema escuro
         </button>
+      <header>
+        <h1>Busca de Hinos por Tonalidade</h1>
+        <p>Frontend local usando arquivos JSON por tonalidade.</p>
       </header>
 
       <section class="filters-grid">
@@ -90,5 +95,6 @@
     </div>
 
     <script type="module" src="./app.js"></script>
+    <script type="module" src="/app.js"></script>
   </body>
 </html>
