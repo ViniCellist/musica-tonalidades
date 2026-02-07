@@ -46,6 +46,10 @@ const el = {
   zoomIn: document.getElementById('zoomIn'),
   zoomValue: document.getElementById('zoomValue'),
   closeModal: document.getElementById('closeModal'),
+  themeToggle: document.getElementById('themeToggle'),
+}
+
+
 }
 
 function normalizeText(value) {
@@ -72,6 +76,17 @@ function formatAndamento(andamento) {
   if (!andamento || (andamento.minimo == null && andamento.maximo == null)) return '-'
   if (andamento.minimo != null && andamento.maximo != null) return `${andamento.minimo} - ${andamento.maximo}`
   return `${andamento.minimo ?? andamento.maximo}`
+}
+
+
+function getAverageAndamento(andamento) {
+  if (!andamento) return '-'
+  const min = andamento.minimo
+  const max = andamento.maximo
+
+  if (min == null && max == null) return '-'
+  if (min != null && max != null) return ((Number(min) + Number(max)) / 2).toFixed(1)
+  return `${min ?? max}`
 }
 
 function renderTimeSignatures() {
@@ -129,12 +144,14 @@ function renderResults() {
 
   state.filtered.forEach((hino) => {
     const row = document.createElement('tr')
+    row.innerHTML = `<td>${hino.numero ?? '-'}</td><td>${hino.titulo ?? '-'}</td><td>${hino.compasso ?? '-'}</td><td>${formatAndamento(hino.andamento)}</td><td>${getAverageAndamento(hino.andamento)}</td>`
     row.innerHTML = `<td>${hino.numero ?? '-'}</td><td>${hino.titulo ?? '-'}</td><td>${hino.compasso ?? '-'}</td><td>${formatAndamento(hino.andamento)}</td>`
     row.addEventListener('click', () => openScoreModal(hino))
     el.resultsBody.appendChild(row)
 
     const card = document.createElement('article')
     card.className = 'card'
+    card.innerHTML = `<h3>${hino.numero ?? '-'} - ${hino.titulo ?? '-'}</h3><p><strong>Compasso:</strong> ${hino.compasso ?? '-'}</p><p><strong>Andamento:</strong> ${formatAndamento(hino.andamento)}</p><p><strong>Média:</strong> ${getAverageAndamento(hino.andamento)}</p>`
     card.innerHTML = `<h3>${hino.numero ?? '-'} - ${hino.titulo ?? '-'}</h3><p><strong>Compasso:</strong> ${hino.compasso ?? '-'}</p><p><strong>Andamento:</strong> ${formatAndamento(hino.andamento)}</p>`
     card.addEventListener('click', () => openScoreModal(hino))
     el.cards.appendChild(card)
@@ -242,6 +259,26 @@ document.addEventListener('keydown', (event) => {
 })
 el.zoomIn.addEventListener('click', () => setZoom(0.1))
 el.zoomOut.addEventListener('click', () => setZoom(-0.1))
+
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme)
+  localStorage.setItem('theme', theme)
+  el.themeToggle.textContent = theme === 'dark' ? '☀️ Tema claro' : '🌙 Tema escuro'
+}
+
+const savedTheme = localStorage.getItem('theme')
+if (savedTheme === 'dark' || savedTheme === 'light') {
+  applyTheme(savedTheme)
+} else {
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  applyTheme(prefersDark ? 'dark' : 'light')
+}
+
+el.themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+  applyTheme(current === 'dark' ? 'light' : 'dark')
+})
 
 renderKey()
 loadKeyData()

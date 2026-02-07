@@ -25,6 +25,11 @@ npm run preview
 - Número do hino: busca parcial.
 - Título: case-insensitive e sem acentos.
 - Lista ordenada por número crescente.
+- Tema claro/escuro com alternância manual e persistência local.
+- Layout responsivo para celular, tablet e desktop.
+- Dropdown de compasso mostra somente opções existentes nos hinos da tonalidade carregada.
+- Se tonalidade não tiver JSON mapeado, mostra "Tonalidade ainda não cadastrada" sem quebrar a app.
+- Na listagem, há coluna de média de andamento: (mínimo + máximo) / 2.
 - Dropdown de compasso mostra somente opções existentes nos hinos da tonalidade carregada.
 - Se tonalidade não tiver JSON mapeado, mostra "Tonalidade ainda não cadastrada" sem quebrar a app.
 
