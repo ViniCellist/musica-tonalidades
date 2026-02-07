@@ -78,7 +78,6 @@ const el = {
   zoomIn: document.getElementById('zoomIn'),
   zoomValue: document.getElementById('zoomValue'),
   closeModal: document.getElementById('closeModal'),
-  themeToggle: document.getElementById('themeToggle'),
 }
 
 /* ========= HELPERS ========= */
@@ -346,30 +345,6 @@ function setZoom(delta) {
   el.zoomValue.textContent = `${Math.round(state.zoom * 100)}%`
 }
 
-/* ========= THEME ========= */
-
-function applyTheme(theme) {
-  document.documentElement.setAttribute('data-theme', theme)
-  localStorage.setItem('theme', theme)
-  el.themeToggle.textContent = theme === 'dark' ? '☀️ Tema claro' : '🌙 Tema escuro'
-}
-
-function initTheme() {
-  const savedTheme = localStorage.getItem('theme')
-  if (savedTheme === 'dark' || savedTheme === 'light') {
-    applyTheme(savedTheme)
-  } else {
-    const prefersDark =
-      window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-    applyTheme(prefersDark ? 'dark' : 'light')
-  }
-
-  el.themeToggle.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
-    applyTheme(current === 'dark' ? 'light' : 'dark')
-  })
-}
-
 /* ========= EVENTS ========= */
 
 function bindEvents() {
@@ -418,7 +393,6 @@ function bindEvents() {
 
 function init() {
   renderKey()
-  initTheme()
   bindEvents()
   loadKeyData()
 }
