@@ -1,5 +1,4 @@
 <!doctype html>
-<html lang="pt-BR" data-theme="light">
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -34,8 +33,7 @@
         document.head.appendChild(cssLink)
       })()
     </script>
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="app-container">
@@ -44,6 +42,7 @@
           <h1>Localizar Hinos</h1>
           <p>Para todos aqueles que ensinam a música com amor e dedicação na obra de Deus!</p>
         </div>
+      </header>  
       <section class="filters-grid">
         <div class="field-group">
           <label for="numberQuery">Número do Hino</label>
@@ -109,8 +108,10 @@
           <button id="zoomIn" type="button">+</button>
         </div>
         <div class="score-container">
-          <img id="scoreImage" alt="Partitura" />
+          <div id="scorePages" class="score-pages"></div>
+          <img id="scoreImage" alt="Partitura" hidden />
         </div>
+
       </div>
     </div>
 
@@ -122,7 +123,5 @@
         document.body.appendChild(appScript)
       })()
     </script>
-    <script type="module" src="./app.js"></script>
-    <script type="module" src="/app.js"></script>
   </body>
 </html>

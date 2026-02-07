@@ -78,6 +78,7 @@ const el = {
   zoomIn: document.getElementById('zoomIn'),
   zoomValue: document.getElementById('zoomValue'),
   closeModal: document.getElementById('closeModal'),
+  scorePages: document.getElementById('scorePages'),
 }
 
 function assertElements() {
@@ -111,6 +112,53 @@ function assertElements() {
   return true
 }
 
+/* ========= IMAGES ========== */
+
+function buildSecondPageFilename(filename) {
+  const dot = filename.lastIndexOf('.')
+  if (dot === -1) return `${filename}-2`
+  return `${filename.slice(0, dot)}-2${filename.slice(dot)}`
+}
+
+async function urlExists(url) {
+  try {
+    const res = await fetch(url, { method: 'HEAD', cache: 'no-store' })
+    return res.ok
+  } catch {
+    try {
+      const res = await fetch(url, { method: 'GET', cache: 'no-store' })
+      return res.ok
+    } catch {
+      return false
+    }
+  }
+}
+
+function clearScorePages() {
+  if (el.scorePages) el.scorePages.innerHTML = ''
+}
+
+function renderScorePages(imageUrls) {
+  clearScorePages()
+
+  if (!el.scorePages) {
+    // fallback antigo
+    el.scoreImage.hidden = false
+    el.scoreImage.src = imageUrls[0]
+    el.scoreImage.style.transform = `scale(${state.zoom})`
+    return
+  }
+
+  for (const url of imageUrls) {
+    const img = document.createElement('img')
+    img.src = url
+    img.alt = 'Partitura'
+    img.style.transform = `scale(${state.zoom})`
+    el.scorePages.appendChild(img)
+  }
+
+  if (el.scoreImage) el.scoreImage.hidden = true
+}
 
 /* ========= HELPERS ========= */
 
@@ -337,7 +385,7 @@ async function loadKeyData() {
 
 /* ========= MODAL ========= */
 
-function openScoreModal(hino) {
+async function openScoreModal(hino) {
   const file = hino?.partitura?.arquivo
   const type = hino?.partitura?.tipo?.toLowerCase()
 
@@ -360,22 +408,39 @@ function openScoreModal(hino) {
   state.zoom = 1
 
   el.modalTitle.textContent = `${hino?.numero ?? '-'} - ${hino?.titulo ?? '-'}`
-  el.scoreImage.src = assetPath(`images/${file}`)
-  el.scoreImage.style.transform = 'scale(1)'
   el.zoomValue.textContent = '100%'
   el.modalBackdrop.hidden = false
+
+  const page1Url = assetPath(`images/${file}`)
+  const secondFile = buildSecondPageFilename(file)
+  const page2Url = assetPath(`images/${secondFile}`)
+
+  const hasSecond = await urlExists(page2Url)
+  renderScorePages(hasSecond ? [page1Url, page2Url] : [page1Url])
 }
+
 
 function closeModal() {
   state.selectedHymn = null
+  clearScorePages()
   el.modalBackdrop.hidden = true
 }
 
+
 function setZoom(delta) {
   state.zoom = clamp(state.zoom + delta, 0.5, 3)
-  el.scoreImage.style.transform = `scale(${state.zoom})`
   el.zoomValue.textContent = `${Math.round(state.zoom * 100)}%`
+
+  if (el.scorePages && el.scorePages.children.length) {
+    Array.from(el.scorePages.children).forEach((node) => {
+      if (node && node.tagName === 'IMG') node.style.transform = `scale(${state.zoom})`
+    })
+    return
+  }
+
+  if (el.scoreImage) el.scoreImage.style.transform = `scale(${state.zoom})`
 }
+
 
 /* ========= EVENTS ========= */
 
