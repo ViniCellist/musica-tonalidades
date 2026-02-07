@@ -1,3 +1,5 @@
+/* ========= CONFIG ========= */
+
 const KEY_STEPS = [
   { id: -7, label: 'Dó♭ Maior', accidental: '7 ♭', file: null },
   { id: -6, label: 'Sol♭ Maior', accidental: '6 ♭', file: null },
@@ -6,7 +8,6 @@ const KEY_STEPS = [
   { id: -3, label: 'Mi♭ Maior', accidental: '3 ♭', file: 'mib-maior.json' },
   { id: -2, label: 'Si♭ Maior', accidental: '2 ♭', file: 'sib-maior.json' },
   { id: -1, label: 'Fá Maior', accidental: '1 ♭', file: 'fa-maior.json' },
-  { id: 0, label: 'Dó Maior', accidental: 'Sem acidentes', file: null },
   { id: 0, label: 'Dó Maior', accidental: 'Sem acidentes', file: 'do-maior.json' },
   { id: 1, label: 'Sol Maior', accidental: '1 #', file: 'sol-maior.json' },
   { id: 2, label: 'Ré Maior', accidental: '2 #', file: 're-maior.json' },
@@ -17,10 +18,38 @@ const KEY_STEPS = [
   { id: 7, label: 'Dó♯ Maior', accidental: '7 #', file: null },
 ]
 
-const BASE_TIME_SIGNATURES = ['4/4', '3/4', '2/4', '4/2', '3/2', '2/2', '12/8', '9/8', '6/8', '12/4', '9/4', '6/4']
+const BASE_TIME_SIGNATURES = [
+  '4/4',
+  '3/4',
+  '2/4',
+  '4/2',
+  '3/2',
+  '2/2',
+  '12/8',
+  '9/8',
+  '6/8',
+  '12/4',
+  '9/4',
+  '6/4',
+]
+
+/* ========= PATHS ========= */
+/**
+ * Serve para funcionar tanto em / quanto em subpasta.
+ * Se você usar caminhos absolutos (/json/...), pode quebrar em subpasta.
+ */
+const appBaseUrl = new URL('.', window.location.href)
+function assetPath(relativePath) {
+  return new URL(relativePath, appBaseUrl).toString()
+}
+
+/* ========= STATE ========= */
 
 const state = {
-  keyIndex: KEY_STEPS.findIndex((item) => item.id === 0),
+  keyIndex: Math.max(
+    0,
+    KEY_STEPS.findIndex((item) => item.id === 0)
+  ),
   filters: { numberQuery: '', titleQuery: '', timeSignature: '' },
   hymns: [],
   filtered: [],
@@ -28,15 +57,7 @@ const state = {
   selectedHymn: null,
 }
 
-
-const appBasePath = window.__APP_BASE_PATH__ || new URL('.', window.location.href).pathname
-const appBaseUrl = new URL(appBasePath, window.location.origin)
-const appBaseUrl = new URL('.', window.location.href)
-
-function assetPath(relativePath) {
-  return new URL(relativePath, appBaseUrl).toString()
-}
-
+/* ========= ELEMENTS ========= */
 
 const el = {
   status: document.getElementById('status'),
@@ -60,11 +81,14 @@ const el = {
   themeToggle: document.getElementById('themeToggle'),
 }
 
-
-}
+/* ========= HELPERS ========= */
 
 function normalizeText(value) {
-  return (value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim()
+  return (value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim()
 }
 
 function renderKey() {
@@ -76,7 +100,7 @@ function renderKey() {
 function renderStatus(message, isError = false) {
   el.status.hidden = false
   el.status.textContent = message
-  el.status.classList.toggle('error', isError)
+  el.status.classList.toggle('error', Boolean(isError))
 }
 
 function hideStatus() {
@@ -89,29 +113,44 @@ function formatAndamento(andamento) {
   return `${andamento.minimo ?? andamento.maximo}`
 }
 
-
 function getAverageAndamento(andamento) {
   if (!andamento) return '-'
   const min = andamento.minimo
   const max = andamento.maximo
-
   if (min == null && max == null) return '-'
-  if (min != null && max != null) return ((Number(min) + Number(max)) / 2).toFixed(1)
-  return `${min ?? max}`
+
+  const nMin = Number(min)
+  const nMax = Number(max)
+
+  if (Number.isFinite(nMin) && Number.isFinite(nMax)) return ((nMin + nMax) / 2).toFixed(1)
+  const one = min ?? max
+  const nOne = Number(one)
+  return Number.isFinite(nOne) ? String(nOne) : '-'
 }
 
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value))
+}
+
+/* ========= TIME SIGNATURE SELECT ========= */
+
 function renderTimeSignatures() {
-  const available = new Set(state.hymns.map((item) => item.compasso).filter(Boolean))
+  const available = new Set(
+    state.hymns
+      .map((item) => (item?.compasso || '').trim())
+      .filter(Boolean)
+  )
   const options = BASE_TIME_SIGNATURES.filter((item) => available.has(item))
 
   const current = state.filters.timeSignature
   el.timeSignature.innerHTML = '<option value="">Todos</option>'
-  options.forEach((item) => {
+
+  for (const item of options) {
     const option = document.createElement('option')
     option.value = item
     option.textContent = item
     el.timeSignature.appendChild(option)
-  })
+  }
 
   if (options.includes(current)) {
     el.timeSignature.value = current
@@ -121,90 +160,156 @@ function renderTimeSignatures() {
   }
 }
 
+/* ========= FILTERING & RENDER ========= */
+
 function applyFilters() {
   const numberQuery = state.filters.numberQuery.trim()
   const titleQuery = normalizeText(state.filters.titleQuery)
+  const sig = state.filters.timeSignature
 
   state.filtered = state.hymns
     .filter((item) => {
-      if (numberQuery && !String(item.numero ?? '').includes(numberQuery)) return false
-      if (state.filters.timeSignature && item.compasso !== state.filters.timeSignature) return false
-      if (titleQuery && !normalizeText(item.titulo).includes(titleQuery)) return false
+      const numeroStr = String(item?.numero ?? '')
+      const tituloNorm = normalizeText(item?.titulo ?? '')
+      const compasso = (item?.compasso || '').trim()
+
+      if (numberQuery && !numeroStr.includes(numberQuery)) return false
+      if (sig && compasso !== sig) return false
+      if (titleQuery && !tituloNorm.includes(titleQuery)) return false
       return true
     })
-    .sort((a, b) => (a.numero ?? 0) - (b.numero ?? 0))
+    .sort((a, b) => (a?.numero ?? 0) - (b?.numero ?? 0))
 
   renderResults()
 }
 
-function renderResults() {
-  const activeFilter = Boolean(state.filters.numberQuery.trim() || state.filters.timeSignature || state.filters.titleQuery.trim())
-
+function clearResults() {
   el.resultsBody.innerHTML = ''
   el.cards.innerHTML = ''
+}
+
+function renderResults() {
+  const activeFilter = Boolean(
+    state.filters.numberQuery.trim() ||
+      state.filters.timeSignature ||
+      state.filters.titleQuery.trim()
+  )
+
+  clearResults()
 
   if (!state.filtered.length) {
     el.resultsSection.hidden = true
-    renderStatus('Nenhum hino encontrado com os filtros informados.')
-    renderStatus(activeFilter ? 'Nenhum hino encontrado com os filtros informados.' : 'Preencha ao menos um filtro para listar hinos desta tonalidade.')
+    renderStatus(
+      activeFilter
+        ? 'Nenhum hino encontrado com os filtros informados.'
+        : 'Preencha ao menos um filtro para listar hinos desta tonalidade.'
+    )
     return
   }
 
   hideStatus()
   el.resultsSection.hidden = false
 
-  state.filtered.forEach((hino) => {
+  for (const hino of state.filtered) {
+    // ===== TABLE ROW =====
     const row = document.createElement('tr')
-    row.innerHTML = `<td>${hino.numero ?? '-'}</td><td>${hino.titulo ?? '-'}</td><td>${hino.compasso ?? '-'}</td><td>${formatAndamento(hino.andamento)}</td><td>${getAverageAndamento(hino.andamento)}</td>`
-    row.innerHTML = `<td>${hino.numero ?? '-'}</td><td>${hino.titulo ?? '-'}</td><td>${hino.compasso ?? '-'}</td><td>${formatAndamento(hino.andamento)}</td>`
+
+    const tdNumero = document.createElement('td')
+    tdNumero.textContent = hino?.numero ?? '-'
+
+    const tdTitulo = document.createElement('td')
+    tdTitulo.textContent = hino?.titulo ?? '-'
+
+    const tdCompasso = document.createElement('td')
+    tdCompasso.textContent = hino?.compasso ?? '-'
+
+    const tdAndamento = document.createElement('td')
+    tdAndamento.textContent = formatAndamento(hino?.andamento)
+
+    const tdMedia = document.createElement('td')
+    tdMedia.textContent = getAverageAndamento(hino?.andamento)
+
+    // Se sua tabela NÃO tem a coluna "Média", comente a linha abaixo:
+    row.append(tdNumero, tdTitulo, tdCompasso, tdAndamento, tdMedia)
+
     row.addEventListener('click', () => openScoreModal(hino))
     el.resultsBody.appendChild(row)
 
+    // ===== CARD =====
     const card = document.createElement('article')
     card.className = 'card'
-    card.innerHTML = `<h3>${hino.numero ?? '-'} - ${hino.titulo ?? '-'}</h3><p><strong>Compasso:</strong> ${hino.compasso ?? '-'}</p><p><strong>Andamento:</strong> ${formatAndamento(hino.andamento)}</p><p><strong>Média:</strong> ${getAverageAndamento(hino.andamento)}</p>`
-    card.innerHTML = `<h3>${hino.numero ?? '-'} - ${hino.titulo ?? '-'}</h3><p><strong>Compasso:</strong> ${hino.compasso ?? '-'}</p><p><strong>Andamento:</strong> ${formatAndamento(hino.andamento)}</p>`
+
+    const h3 = document.createElement('h3')
+    h3.textContent = `${hino?.numero ?? '-'} - ${hino?.titulo ?? '-'}`
+
+    const p1 = document.createElement('p')
+    const s1 = document.createElement('strong')
+    s1.textContent = 'Compasso:'
+    p1.append(s1, ` ${hino?.compasso ?? '-'}`)
+
+    const p2 = document.createElement('p')
+    const s2 = document.createElement('strong')
+    s2.textContent = 'Andamento:'
+    p2.append(s2, ` ${formatAndamento(hino?.andamento)}`)
+
+    const p3 = document.createElement('p')
+    const s3 = document.createElement('strong')
+    s3.textContent = 'Média:'
+    p3.append(s3, ` ${getAverageAndamento(hino?.andamento)}`)
+
+    card.append(h3, p1, p2, p3)
     card.addEventListener('click', () => openScoreModal(hino))
     el.cards.appendChild(card)
-  })
+  }
 }
+
+/* ========= DATA LOADING ========= */
 
 async function loadKeyData() {
   const key = KEY_STEPS[state.keyIndex]
+
   state.hymns = []
   state.filtered = []
-  renderStatus('Carregando hinos...')
   el.resultsSection.hidden = true
+  clearResults()
 
-  if (!key.file) {
+  if (!key?.file) {
     renderStatus('Tonalidade ainda não cadastrada.', true)
     renderTimeSignatures()
     return
   }
 
+  renderStatus('Carregando hinos...')
+
   try {
-    const response = await fetch(assetPath(`json/${key.file}`))
-    const response = await fetch(`/json/${key.file}`)
+    const response = await fetch(assetPath(`json/${key.file}`), { cache: 'no-store' })
     if (!response.ok) {
       if (response.status === 404) throw new Error('Tonalidade ainda não cadastrada.')
       throw new Error(`Falha ao carregar ${key.file} (HTTP ${response.status}).`)
     }
-    if (!response.ok) throw new Error(`Falha ao carregar ${key.file} (HTTP ${response.status}).`)
+
     const data = await response.json()
     if (!Array.isArray(data)) throw new Error('JSON inválido: era esperado um array de hinos.')
 
-    state.hymns = data
+    state.hymns = data.map((h) => ({
+      ...h,
+      compasso: (h?.compasso || '').trim() || null,
+    }))
+
     renderTimeSignatures()
     applyFilters()
   } catch (error) {
-    renderStatus(error.message || 'Erro ao carregar dados da tonalidade.', true)
+    renderStatus(error?.message || 'Erro ao carregar dados da tonalidade.', true)
     renderTimeSignatures()
   }
 }
 
+/* ========= MODAL ========= */
+
 function openScoreModal(hino) {
   const file = hino?.partitura?.arquivo
   const type = hino?.partitura?.tipo?.toLowerCase()
+
   if (!file || !type) {
     alert('Partitura indisponível para este hino.')
     return
@@ -212,7 +317,6 @@ function openScoreModal(hino) {
 
   if (type === 'pdf') {
     window.open(assetPath(`images/${file}`), '_blank', 'noopener,noreferrer')
-    window.open(`/images/${file}`, '_blank', 'noopener,noreferrer')
     return
   }
 
@@ -223,9 +327,9 @@ function openScoreModal(hino) {
 
   state.selectedHymn = hino
   state.zoom = 1
-  el.modalTitle.textContent = `${hino.numero} - ${hino.titulo}`
+
+  el.modalTitle.textContent = `${hino?.numero ?? '-'} - ${hino?.titulo ?? '-'}`
   el.scoreImage.src = assetPath(`images/${file}`)
-  el.scoreImage.src = `/images/${file}`
   el.scoreImage.style.transform = 'scale(1)'
   el.zoomValue.textContent = '100%'
   el.modalBackdrop.hidden = false
@@ -237,43 +341,12 @@ function closeModal() {
 }
 
 function setZoom(delta) {
-  state.zoom = Math.min(3, Math.max(0.5, state.zoom + delta))
+  state.zoom = clamp(state.zoom + delta, 0.5, 3)
   el.scoreImage.style.transform = `scale(${state.zoom})`
   el.zoomValue.textContent = `${Math.round(state.zoom * 100)}%`
 }
 
-el.numberQuery.addEventListener('input', (event) => {
-  state.filters.numberQuery = event.target.value
-  applyFilters()
-})
-el.titleQuery.addEventListener('input', (event) => {
-  state.filters.titleQuery = event.target.value
-  applyFilters()
-})
-el.timeSignature.addEventListener('change', (event) => {
-  state.filters.timeSignature = event.target.value
-  applyFilters()
-})
-el.keyUp.addEventListener('click', () => {
-  state.keyIndex = Math.min(KEY_STEPS.length - 1, state.keyIndex + 1)
-  renderKey()
-  loadKeyData()
-})
-el.keyDown.addEventListener('click', () => {
-  state.keyIndex = Math.max(0, state.keyIndex - 1)
-  renderKey()
-  loadKeyData()
-})
-el.closeModal.addEventListener('click', closeModal)
-el.modalBackdrop.addEventListener('click', (event) => {
-  if (event.target === el.modalBackdrop) closeModal()
-})
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') closeModal()
-})
-el.zoomIn.addEventListener('click', () => setZoom(0.1))
-el.zoomOut.addEventListener('click', () => setZoom(-0.1))
-
+/* ========= THEME ========= */
 
 function applyTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme)
@@ -281,18 +354,73 @@ function applyTheme(theme) {
   el.themeToggle.textContent = theme === 'dark' ? '☀️ Tema claro' : '🌙 Tema escuro'
 }
 
-const savedTheme = localStorage.getItem('theme')
-if (savedTheme === 'dark' || savedTheme === 'light') {
-  applyTheme(savedTheme)
-} else {
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-  applyTheme(prefersDark ? 'dark' : 'light')
+function initTheme() {
+  const savedTheme = localStorage.getItem('theme')
+  if (savedTheme === 'dark' || savedTheme === 'light') {
+    applyTheme(savedTheme)
+  } else {
+    const prefersDark =
+      window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+    applyTheme(prefersDark ? 'dark' : 'light')
+  }
+
+  el.themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+    applyTheme(current === 'dark' ? 'light' : 'dark')
+  })
 }
 
-el.themeToggle.addEventListener('click', () => {
-  const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
-  applyTheme(current === 'dark' ? 'light' : 'dark')
-})
+/* ========= EVENTS ========= */
 
-renderKey()
-loadKeyData()
+function bindEvents() {
+  el.numberQuery.addEventListener('input', (event) => {
+    state.filters.numberQuery = event.target.value
+    applyFilters()
+  })
+
+  el.titleQuery.addEventListener('input', (event) => {
+    state.filters.titleQuery = event.target.value
+    applyFilters()
+  })
+
+  el.timeSignature.addEventListener('change', (event) => {
+    state.filters.timeSignature = event.target.value
+    applyFilters()
+  })
+
+  el.keyUp.addEventListener('click', () => {
+    state.keyIndex = clamp(state.keyIndex + 1, 0, KEY_STEPS.length - 1)
+    renderKey()
+    loadKeyData()
+  })
+
+  el.keyDown.addEventListener('click', () => {
+    state.keyIndex = clamp(state.keyIndex - 1, 0, KEY_STEPS.length - 1)
+    renderKey()
+    loadKeyData()
+  })
+
+  el.closeModal.addEventListener('click', closeModal)
+
+  el.modalBackdrop.addEventListener('click', (event) => {
+    if (event.target === el.modalBackdrop) closeModal()
+  })
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeModal()
+  })
+
+  el.zoomIn.addEventListener('click', () => setZoom(0.1))
+  el.zoomOut.addEventListener('click', () => setZoom(-0.1))
+}
+
+/* ========= INIT ========= */
+
+function init() {
+  renderKey()
+  initTheme()
+  bindEvents()
+  loadKeyData()
+}
+
+init()
