@@ -112,17 +112,675 @@
         }
     },
     {
-        "numero": 93,
-        "titulo": "Aceitando ao Senhor...",
+        "numero": 10,
+        "titulo": "Prossegui vitoriosos em Cristo",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "010.png"
+        }
+    },
+    {
+        "numero": 11,
+        "titulo": "Ó igreja de Deus, resplandece",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "011.png"
+        }
+    },
+    {
+        "numero": 51,
+        "titulo": "A Palavra do Senhor é Pão celestial",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "051.png"
+        }
+    },
+    {
+        "numero": 100,
+        "titulo": "Todos juntos, jubilemos",
         "compasso": "4/4",
         "interpretacao": null,
         "andamento": {
             "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "100.png"
+        }
+    },
+    {
+        "numero": 114,
+        "titulo": "Clama ao Mestre, Cristo Jesus",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "114.png"
+        }
+    },
+    {
+        "numero": 129,
+        "titulo": "Salvo estou por Jesus",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "129.png"
+        }
+    },
+    {
+        "numero": 153,
+        "titulo": "O divinal Cordeiro",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "153.png"
+        }
+    },
+    {
+        "numero": 173,
+        "titulo": "Para ouvir aqui estamos",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "173.png"
+        }
+    },
+    {
+        "numero": 190,
+        "titulo": "Amados, não temamos",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "190.png"
+        }
+    },
+    {
+        "numero": 222,
+        "titulo": "Brevemente virá o Senhor Jesus",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "222.png"
+        }
+    },
+    {
+        "numero": 249,
+        "titulo": "A Caridade",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "249.png"
+        }
+    },
+    {
+        "numero": 258,
+        "titulo": "Louvemos ao nosso Senhor",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "258.png"
+        }
+    },
+    {
+        "numero": 298,
+        "titulo": "Avante sempre, sem temer!",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "298.png"
+        }
+    },
+    {
+        "numero": 299,
+        "titulo": "Em nome de Jesus",
+        "compasso": "4/4",
+        "interpretacao": "solene",
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "299.png"
+        }
+    },
+    {
+        "numero": 318,
+        "titulo": "Ó Salvador, vem converter o pecador",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "318.png"
+        }
+    },
+    {
+        "numero": 320,
+        "titulo": "Que prazer é andar com Cristo",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "320.png"
+        }
+    },
+    {
+        "numero": 323,
+        "titulo": "Oh! Não busques, ansioso",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "323.png"
+        }
+    },
+    {
+        "numero": 328,
+        "titulo": "Grande é o Teu poder, Senhor",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "328.png"
+        }
+    },
+    {
+        "numero": 338,
+        "titulo": "O Senhor é sempiterno",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "338.png"
+        }
+    },
+    {
+        "numero": 378,
+        "titulo": "Grandioso és Tu",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 56,
             "maximo": 72
         },
         "partitura": {
             "tipo": "png",
-            "arquivo": "93.png"
+            "arquivo": "378.png"
         }
     },
+    {
+        "numero": 382,
+        "titulo": "Creio nas fiéis promeses do meu Deus",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "382.png"
+        }
+    },
+    {
+        "numero": 396,
+        "titulo": "Vamos, ó irmãos, marchar",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "396.png"
+        }
+    },
+    {
+        "numero": 439,
+        "titulo": "Somos jovens",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 92
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "439.png"
+        }
+    },
+    {
+        "numero": 443,
+        "titulo": "Ó meninos, Deus vos convida",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "443.png"
+        }
+    },
+    {
+        "numero": 445,
+        "titulo": "Ajuntemos um tesouro eterno",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 92
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "445.png"
+        }
+    },
+    {
+        "numero": 465,
+        "titulo": "Deus tem por nós imenso amor",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "465.png"
+        }
+    },
+    {
+        "numero": 474,
+        "titulo": "Oh! Glória! Bendito é o Senhor!",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "474.png"
+        }
+    },
+    {
+        "numero": 476,
+        "titulo": "Deixai a Mim vir os pequeninos...",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "476.png"
+        }
+    },
+    {
+        "numero": 477,
+        "titulo": "Vinde, crianças",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "477.png"
+        }
+    },
+    {
+        "numero": "Coro 5",
+        "titulo": "Majestoso é Cristo Jesus!",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "coro5.png"
+        }
+    },
+    {
+        "numero": 8,
+        "titulo": "Oh! Vem, sim, vem",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "008.png"
+        }
+    },
+    {
+        "numero": 77,
+        "titulo": "Vamos lançar a semente",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "077.png"
+        }
+    },
+    {
+        "numero": 109,
+        "titulo": "Vem, ó Senhor, ajudar-me",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 132
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "109.png"
+        }
+    },
+    {
+        "numero": 128,
+        "titulo": "Teu filho sou, ó Criador",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 108,
+            "maximo": 132
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "128.png"
+        }
+    },
+    {
+        "numero": 132,
+        "titulo": "Eis-me, Senhor, aos Teus pés",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 108,
+            "maximo": 132
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "132.png"
+        }
+    },
+    {
+        "numero": 165,
+        "titulo": "Foi o Senhor Jesus",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 144
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "165.png"
+        }
+    },
+    {
+        "numero": 219,
+        "titulo": "Novos céus nós aguardamos",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 40,
+            "maximo": 50
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "219.png"
+        }
+    },
+    {
+        "numero": 272,
+        "titulo": "Louvarei ao bom Jesus",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 42,
+            "maximo": 52
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "272.png"
+        }
+    },
+    {
+        "numero": 316,
+        "titulo": "Tua vida é triste?",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 44,
+            "maximo": 56
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "316.png"
+        }
+    },
+    {
+        "numero": 332,
+        "titulo": "É Cristo Quem cuida de ti",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 116,
+            "maximo": 132
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "332.png"
+        }
+    },
+    {
+        "numero": 389,
+        "titulo": "Cristo Jesus chama os Seus",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 100,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "389.png"
+        }
+    },
+    {
+        "numero": 393,
+        "titulo": "Ó bom Jesus, meu caro Jesus",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 108,
+            "maximo": 126
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "393.png"
+        }
+    },
+    {
+        "numero": 448,
+        "titulo": "Sou criança, Senhor",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 92,
+            "maximo": 126
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "448.png"
+        }
+    },
+    {
+        "numero": 480,
+        "titulo": "Jovens, amai o conselho",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 108,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "480.png"
+        }
+    },
+    {
+        "numero": 63,
+        "titulo": "Se vós baterdes, Ele vos abre",
+        "compasso": "9/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 46,
+            "maximo": 56
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "063.png"
+        }
+    },
+    {
+        "numero": 15,
+        "titulo": "Ó alma que choras",
+        "compasso": "12/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 108,
+            "maximo": 132
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "015.png"
+        }
+    },
+    {
+        "numero": 105,
+        "titulo": "Volta ao teu lar Paternal!",
+        "compasso": "12/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 44,
+            "maximo": 60
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "105.png"
+        }
+    },
+    {
+        "numero": 196,
+        "titulo": "Sem Deus Pai",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 88,
+            "maximo": 112
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "196.png"
+        }
+    }
 ]

@@ -196,6 +196,20 @@
         }
     },
     {
+        "numero": 413,
+        "titulo": "Foi por mim que morreste",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 50,
+            "maximo": 69
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "413.png"
+        }
+    },
+    {
         "numero": 424,
         "titulo": "Ó Jesus, por nós morreste",
         "compasso": "4/4",
