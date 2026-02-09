@@ -42,6 +42,20 @@
         }
     },
     {
+        "numero": 123,
+        "titulo": "Ó Jesus, és meu Guardião",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "123.png"
+        }
+    },
+    {
         "numero": 182,
         "titulo": "Brevemente retornará Jesus Cristo",
         "compasso": "3/4",
@@ -711,6 +725,20 @@
         "partitura": {
             "tipo": "png",
             "arquivo": "448.png"
+        }
+    },
+    {
+        "numero": 451,
+        "titulo": "Jamais esquecerei Tua mercê",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 104,
+            "maximo": 132
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "451.png"
         }
     },
     {

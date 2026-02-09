@@ -1,0 +1,928 @@
+[
+    {
+        "numero": 310,
+        "titulo": "Nós Te louvamos, ó Rei dos reis",
+        "compasso": "2/4",
+        "interpretacao": "solene",
+        "andamento": {
+            "minimo": 58,
+            "maximo": 72
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "310.png"
+        }
+    },
+    {
+        "numero": 335,
+        "titulo": "Eu almejo nessa pátria entrar",
+        "compasso": "2/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "335.png"
+        }
+    },
+    {
+        "numero": 458,
+        "titulo": "Cristo me ama",
+        "compasso": "2/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 56,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "458.png"
+        }
+    },
+    {
+        "numero": 467,
+        "titulo": "Vamos com Jesus",
+        "compasso": "2/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "467.png"
+        }
+    },
+    {
+        "numero": 12,
+        "titulo": "Sempre em Jesus confiarei",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 58,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "012.png"
+        }
+    },
+    {
+        "numero": 34,
+        "titulo": "OMestre que desceu dos céus",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 50,
+            "maximo": 66
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "034.png"
+        }
+    },
+    {
+        "numero": 46,
+        "titulo": "trema o céu, a terra, o mar",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "043.png"
+        }
+    },
+    {
+        "numero": 48,
+        "titulo": "Creio no Senhor",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "048.png"
+        }
+    },
+    {
+        "numero": 144,
+        "titulo": "A vida eterna",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "144.png"
+        }
+    },
+    {
+        "numero": 186,
+        "titulo": "Cristo, Luz do mundo",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "186.png"
+        }
+    },
+    {
+        "numero": 274,
+        "titulo": "Na plenitude estarei",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 56,
+            "maximo": 66
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "274.png"
+        }
+    },
+    {
+        "numero": 304,
+        "titulo": "Cristo é a Esperança",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "304.png"
+        }
+    },
+    {
+        "numero": 371,
+        "titulo": "Aos Teus pés me apresento",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "371.png"
+        }
+    },
+    {
+        "numero": 400,
+        "titulo": "Divina Fonte é Jesus",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 56,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "400.png"
+        }
+    },
+    {
+        "numero": 411,
+        "titulo": "O vitupério de Jesus",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 54,
+            "maximo": 69
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "411.png"
+        }
+    },
+    {
+        "numero": 426,
+        "titulo": "Lá no céu, o lar de amor",
+        "compasso": "3/4",
+        "interpretacao": "funeral",
+        "andamento": {
+            "minimo": 44,
+            "maximo": 60
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "426.png"
+        }
+    },
+    {
+        "numero": 435,
+        "titulo": "Ó Jesus, quanto és piedoso!",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "435.png"
+        }
+    },
+    {
+        "numero": 456,
+        "titulo": "Somos joias preciosas",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "456.png"
+        }
+    },
+    {
+        "numero": 462,
+        "titulo": "Gloriosa é a história",
+        "compasso": "3/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "462.png"
+        }
+    },
+    {
+        "numero": 464,
+        "titulo": "Reunidos nós estamos",
+        "compasso": "3/4",
+        "interpretacao": "solene",
+        "andamento": {
+            "minimo": 60,
+            "maximo": 72
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "464.png"
+        }
+    },
+    {
+        "numero": 1,
+        "titulo": "Cristo, meu Mestre...",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 56,
+            "maximo": 66
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "001.png"
+        }
+    },
+    {
+        "numero": 2,
+        "titulo": "De Deus tu és eleita",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "002.png"
+        }
+    },
+    {
+        "numero": 53,
+        "titulo": "Nós somos luz do mundo",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 92
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "053.png"
+        }
+    },
+    {
+        "numero": 56,
+        "titulo": "Põe em Deus a confiança",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "056.png"
+        }
+    },
+    {
+        "numero": 84,
+        "titulo": "Quão amável é a Tua casa",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "084.png"
+        }
+    },
+    {
+        "numero": 87,
+        "titulo": "Eis que vem Jesus",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "087.png"
+        }
+    },
+    {
+        "numero": 89,
+        "titulo": "Oh! Grande Deus",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 80,
+            "maximo": 96
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "089.png"
+        }
+    },
+    {
+        "numero": 92,
+        "titulo": "O santo Evangelho",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "092.png"
+        }
+    },
+    {
+        "numero": 110,
+        "titulo": "Vigiai, irmãos",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "110.png"
+        }
+    },
+    {
+        "numero": 113,
+        "titulo": "O Senhor seja louvado",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "113.png"
+        }
+    },
+    {
+        "numero": 119,
+        "titulo": "Luz aos meus pés é a Tua Palavra",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 88,
+            "maximo": 112
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "119.png"
+        }
+    },
+    {
+        "numero": 120,
+        "titulo": "Nossa cruz tomemos",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 76,
+            "maximo": 92
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "120.png"
+        }
+    },
+    {
+        "numero": 134,
+        "titulo": "Teu amor, ó Cordeiro divinal",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "134.png"
+        }
+    },
+    {
+        "numero": 156,
+        "titulo": "Cristo entrou nos céus primeiro",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "156.png"
+        }
+    },
+    {
+        "numero": 160,
+        "titulo": "Sou o Caminho, a Verdade e a Vida",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 88,
+            "maximo": 112
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "160.png"
+        }
+    },
+    {
+        "numero": 164,
+        "titulo": "Louvemos sempre alegres",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "164.png"
+        }
+    },
+    {
+        "numero": 167,
+        "titulo": "Água viva",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "167.png"
+        }
+    },
+    {
+        "numero": 176,
+        "titulo": "Por Ti vivo, ó Deus potente",
+        "compasso": "4/4",
+        "interpretacao": "com veneração",
+        "andamento": {
+            "minimo": 63,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "176.png"
+        }
+    },
+    {
+        "numero": 179,
+        "titulo": "Trabalhai! Trabalhai!",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "179.png"
+        }
+    },
+    {
+        "numero": 181,
+        "titulo": "Só em Cristo, só em Cristo",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "181.png"
+        }
+    },
+    {
+        "numero": 210,
+        "titulo": "Grandes promessas",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "210.png"
+        }
+    },
+    {
+        "numero": 212,
+        "titulo": "Testemunhas verazes nós somos",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "212.png"
+        }
+    },
+    {
+        "numero": 221,
+        "titulo": "A descida do Espírito Santo",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "221.png"
+        }
+    },
+    {
+        "numero": 225,
+        "titulo": "Senhor, com Tua voz me chamas",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "225.png"
+        }
+    },
+    {
+        "numero": 236,
+        "titulo": "Há um lugar de eterna paz",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "236.png"
+        }
+    },
+    {
+        "numero": 252,
+        "titulo": "Exaltação ao Deus Onipotente!",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 80,
+            "maximo": 100
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "252.png"
+        }
+    },
+    {
+        "numero": 270,
+        "titulo": "Deste mundo mais nada esperarei",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 92
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "270.png"
+        }
+    },
+    {
+        "numero": 276,
+        "titulo": "Ó Senhor da glória",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 58,
+            "maximo": 72
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "276.png"
+        }
+    },
+    {
+        "numero": 292,
+        "titulo": "Oh! Quanto é bom o Redentor!",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "292.png"
+        }
+    },
+    {
+        "numero": 301,
+        "titulo": "Nossa Esperança é Jesus",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "301.png"
+        }
+    },
+    {
+        "numero": 307,
+        "titulo": "Cristo nos dará da Sua plenitude",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 72,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "307.png"
+        }
+    },
+    {
+        "numero": 314,
+        "titulo": "O Teu poder supremo",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 84,
+            "maximo": 100
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "314.png"
+        }
+    },
+    {
+        "numero": 337,
+        "titulo": "Por fé seguimos ao Senhor",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "337.png"
+        }
+    },
+    {
+        "numero": 349,
+        "titulo": "Irmãos amados",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "349.png"
+        }
+    },
+    {
+        "numero": 355,
+        "titulo": "A Ti, Deus, eu consagrei-me",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "355.png"
+        }
+    },
+    {
+        "numero": 360,
+        "titulo": "Do mal apartados devemos estar",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "360.png"
+        }
+    },
+    {
+        "numero": 370,
+        "titulo": "Têm os santos do Senhor",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 88
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "370.png"
+        }
+    },
+    {
+        "numero": 374,
+        "titulo": "Santo! Santo! Santo!",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 56,
+            "maximo": 76
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "374.png"
+        }
+    },
+    {
+        "numero": 376,
+        "titulo": "Senhor, preciso mais...",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "376.png"
+        }
+    },
+    {
+        "numero": 395,
+        "titulo": "Eis-Me aqui, dirá o Criador",
+        "compasso": "4/4",
+        "interpretacao": "majestoso",
+        "andamento": {
+            "minimo": 92,
+            "maximo": 112
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "395.png"
+        }
+    },
+    {
+        "numero": 416,
+        "titulo": "No Calvário",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 52,
+            "maximo": 63
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "416.png"
+        }
+    },
+    {
+        "numero": 427,
+        "titulo": "Os que no Senhor dormiram",
+        "compasso": "4/4",
+        "interpretacao": "funeral",
+        "andamento": {
+            "minimo": 44,
+            "maximo": 58
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "427.png"
+        }
+    },
+    {
+        "numero": 447,
+        "titulo": "Brilha mais e mais",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 69,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "447.png"
+        }
+    },
+    {
+        "numero": 473,
+        "titulo": "Forasteiro sou no mundo",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 66,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "473.png"
+        }
+    },
+    {
+        "numero": 475,
+        "titulo": "Se eu for aqui provado",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 60,
+            "maximo": 84
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "475.png"
+        }
+    },
+    {
+        "numero": 478,
+        "titulo": "Cedo retorna o Senhor",
+        "compasso": "4/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 63,
+            "maximo": 80
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "478.png"
+        }
+    }
+
+
+]
