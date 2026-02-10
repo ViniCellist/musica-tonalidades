@@ -922,7 +922,411 @@
             "tipo": "png",
             "arquivo": "478.png"
         }
+    },
+    {
+        "numero": 21,
+        "titulo": "Não mais oprimidos seremos",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 116,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "021.png"
+        }
+    },
+    {
+        "numero": 27,
+        "titulo": "O Senhor é minha Luz",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 116,
+            "maximo": 144
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "027.png"
+        }
+    },
+    {
+        "numero": 35,
+        "titulo": "Eis que multidão mui grande",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 108,
+            "maximo": 120
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "035.png"
+        }
+    },
+    {
+        "numero": 38,
+        "titulo": "Ó Senhor, és minha Vida",
+        "compasso": "6/8",
+        "interpretacao": "com veneração",
+        "andamento": {
+            "minimo": 56,
+            "maximo": 72
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "038.png"
+        }
+    },
+    {
+        "numero": 102,
+        "titulo": "Sinto a voz divina do meu fiel Pastor",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 116,
+            "maximo": 144
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "102.png"
+        }
+    },
+    {
+        "numero": 112,
+        "titulo": "Sigamos sempre ao Senhor",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "112.png"
+        }
+    },
+    {
+        "numero": 141,
+        "titulo": "Cristo, o Verbo",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 100,
+            "maximo": 120
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "141.png"
+        }
+    },
+    {
+        "numero": 154,
+        "titulo": "Terá que renascer",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 108,
+            "maximo": 126
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "154.png"
+        }
+    },
+    {
+        "numero": 163,
+        "titulo": "Neste mundo de ilusão",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "163.png"
+        }
+    },
+    {
+        "numero": 183,
+        "titulo": "Cristo Jesus é a Porta dos céus",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 112,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "183.png"
+        }
+    },
+    {
+        "numero": 206,
+        "titulo": "Tu és o Amigo",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 100,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "206.png"
+        }
+    },
+    {
+        "numero": 213,
+        "titulo": "Quando vier do céu",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 104,
+            "maximo": 132
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "213.png"
+        }
+    },
+    {
+        "numero": 260,
+        "titulo": "Sou servo inútil, ó Deus piedoso",
+        "compasso": "6/8",
+        "interpretacao": "com humildade",
+        "andamento": {
+            "minimo": 108,
+            "maximo": 126
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "260.png"
+        }
+    },
+    {
+        "numero": 265,
+        "titulo": "Benção dos céus prometidas",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 120,
+            "maximo": 144
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "265.png"
+        }
+    },
+    {
+        "numero": 280,
+        "titulo": "De Deus a armadura",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 116,
+            "maximo": 144
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "280.png"
+        }
+    },
+    {
+        "numero": 369,
+        "titulo": "Sentes bater em teu coração?",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 120,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "369.png"
+        }
+    },
+    {
+        "numero": 421,
+        "titulo": "Recorda, por fé, minha alma",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 80,
+            "maximo": 112
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "421.png"
+        }
+    },
+    {
+        "numero": 422,
+        "titulo": "Jesus Cristo fiel cordeiro",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 80,
+            "maximo": 100
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "422.png"
+        }
+    },
+    {
+        "numero": 438,
+        "titulo": "Oh! Que amor celeste!",
+        "compasso": "6/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 100,
+            "maximo": 138
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "438.png"
+        }
+    },
+    {
+        "numero": 61,
+        "titulo": "A minha alma deseja ver-Te",
+        "compasso": "9/8",
+        "interpretacao": "com submissão",
+        "andamento": {
+            "minimo": 132,
+            "maximo": 144
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "061.png"
+        }
+    },
+    {
+        "numero": 121,
+        "titulo": "O meu socorro vem do Senhor",
+        "compasso": "9/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 120,
+            "maximo": 144
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "121.png"
+        }
+    },
+    {
+        "numero": 177,
+        "titulo": "Eu necessito achegar-me",
+        "compasso": "9/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 40,
+            "maximo": 50
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "177.png"
+        }
+    },
+    {
+        "numero": 193,
+        "titulo": "Nada jamais me faltará",
+        "compasso": "9/8",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 120,
+            "maximo": 144
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "193.png"
+        }
+    },
+    {
+        "numero": 7,
+        "titulo": "Granjeai, granjeai os talentos",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 80,
+            "maximo": 100
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "007.png"
+        }
+    },
+    {
+        "numero": 83,
+        "titulo": "Vinde às bodas",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 88,
+            "maximo": 112
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "083.png"
+        }
+    },
+    {
+        "numero": 86,
+        "titulo": "Grande tu és, ó Pai",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 80,
+            "maximo": 108
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "086.png"
+        }
+    },
+    {
+        "numero": 237,
+        "titulo": "Deus é por mim",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 100,
+            "maximo": 126
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "237.png"
+        }
+    },
+    {
+        "numero": 294,
+        "titulo": "Avante! Coragem! Marchemos",
+        "compasso": "6/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 104,
+            "maximo": 132
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "294.png"
+        }
+    },
+    {
+        "numero": 293,
+        "titulo": "Tu és o oleiro",
+        "compasso": "9/4",
+        "interpretacao": null,
+        "andamento": {
+            "minimo": 92,
+            "maximo": 126
+        },
+        "partitura": {
+            "tipo": "png",
+            "arquivo": "293.png"
+        }
     }
-
-
 ]
