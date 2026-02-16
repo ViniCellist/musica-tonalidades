@@ -797,7 +797,7 @@
     } 
   },
   { 
-    "numero": 4, 
+    "numero": "Coro 4", 
     "titulo": "Glória, glória nas alturas!", 
     "compasso": "4/4", 
     "interpretacao": null, 
@@ -815,159 +815,279 @@
     "titulo": "Ouve a nossa oração",
     "compasso": "6/4",
     "interpretacao": null,
-    "andamento": { "minimo": 112, "maximo": 138 },
-    "partitura": { "tipo": "jpeg", "arquivo": "004.jpeg" }
+    "andamento": { 
+      "minimo": 112, 
+      "maximo": 138 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "004.jpeg" 
+    }
   },
   {
     "numero": 98,
     "titulo": "Cristo Jesus tudo pode",
     "compasso": "6/4",
     "interpretacao": null,
-    "andamento": { "minimo": 88, "maximo": 126 },
-    "partitura": { "tipo": "jpeg", "arquivo": "098.jpeg" }
+    "andamento": { 
+      "minimo": 88, 
+      "maximo": 126 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "098.jpeg" 
+    }
   },
   {
     "numero": 339,
     "titulo": "Glória sem par",
     "compasso": "6/4",
     "interpretacao": null,
-    "andamento": { "minimo": 112, "maximo": 132 },
-    "partitura": { "tipo": "jpeg", "arquivo": "339.jpeg" }
+    "andamento": { 
+      "minimo": 112, 
+      "maximo": 132 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "339.jpeg" 
+    }
   },
   {
     "numero": 344,
     "titulo": "Vou encontrar meu Deus",
     "compasso": "6/4",
     "interpretacao": null,
-    "andamento": { "minimo": 96, "maximo": 126 },
-    "partitura": { "tipo": "jpeg", "arquivo": "344.jpeg" }
+    "andamento": { 
+      "minimo": 96, 
+      "maximo": 126 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "344.jpeg" 
+    }
   },
   {
     "numero": 346,
     "titulo": "Longe do mal e perto de Ti",
     "compasso": "6/4",
     "interpretacao": null,
-    "andamento": { "minimo": 96, "maximo": 116 },
-    "partitura": { "tipo": "jpeg", "arquivo": "346.jpeg" }
+    "andamento": { 
+      "minimo": 96, 
+      "maximo": 116 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "346.jpeg" 
+    }
   },
   {
     "numero": 5,
     "titulo": "A Rocha Celestial",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 112, "maximo": 144 },
-    "partitura": { "tipo": "jpeg", "arquivo": "005.jpeg" }
+    "andamento": { 
+      "minimo": 112, 
+      "maximo": 144 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "005.jpeg" 
+    }
   },
   {
     "numero": 46,
     "titulo": "Grandioso é o nosso Deus",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 92, "maximo": 126 },
-    "partitura": { "tipo": "jpeg", "arquivo": "046.jpeg" }
+    "andamento": { 
+      "minimo": 92, 
+      "maximo": 126 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "046.jpeg"
+    }
   },
   {
     "numero": 97,
     "titulo": "Cristo Jesus, nosso bom Pastor",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 42, "maximo": 52 },
-    "partitura": { "tipo": "jpeg", "arquivo": "097.jpeg" }
+    "andamento": { 
+      "minimo": 42, 
+      "maximo": 52 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "097.jpeg"
+    }
   },
   {
     "numero": 117,
     "titulo": "Jesus habita em meu coração",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 132, "maximo": 152 },
-    "partitura": { "tipo": "jpeg", "arquivo": "117.jpeg" }
+    "andamento": { 
+      "minimo": 132, 
+      "maximo": 152 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "117.jpeg" 
+    }
   },
   {
     "numero": 169,
     "titulo": "Aos pés de Deus estamos",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 100, "maximo": 126 },
-    "partitura": { "tipo": "jpeg", "arquivo": "169.jpeg" }
+    "andamento": { 
+      "minimo": 100, 
+      "maximo": 126 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "169.jpeg" 
+    }
   },
   {
     "numero": 191,
     "titulo": "Vem, vem consosar-me",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 100, "maximo": 126 },
-    "partitura": { "tipo": "jpeg", "arquivo": "191.jpeg" }
+    "andamento": { 
+      "minimo": 100, 
+      "maximo": 126 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "191.jpeg" 
+    }
   },
   {
     "numero": 192,
     "titulo": "Quão fiel promessa Jesus nos fez",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 108, "maximo": 126 },
-    "partitura": { "tipo": "jpeg", "arquivo": "192.jpeg" }
+    "andamento": { 
+      "minimo": 108, 
+      "maximo": 126
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "192.jpeg" 
+    }
   },
   {
     "numero": 240,
     "titulo": "Não me cansarei de cantar",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 112, "maximo": 132 },
-    "partitura": { "tipo": "jpeg", "arquivo": "240.jpeg" }
+    "andamento": { 
+      "minimo": 112, 
+      "maximo": 132 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "240.jpeg" 
+    }
   },
   {
     "numero": 246,
     "titulo": "Irmãos, já resgatados",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 116, "maximo": 132 },
-    "partitura": { "tipo": "jpeg", "arquivo": "246.jpeg" }
+    "andamento": { 
+      "minimo": 116, 
+      "maximo": 132 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "246.jpeg"
+    }
   },
   {
     "numero": 247,
     "titulo": "Se fores tentado",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 100, "maximo": 132 },
-    "partitura": { "tipo": "jpeg", "arquivo": "247.jpeg" }
+    "andamento": { 
+      "minimo": 100, 
+      "maximo": 132
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "247.jpeg" 
+    }
   },
   {
     "numero": 308,
     "titulo": "Soa a trombeta",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 108, "maximo": 126 },
-    "partitura": { "tipo": "jpeg", "arquivo": "308.jpeg" }
+    "andamento": { 
+      "minimo": 108, 
+      "maximo": 126 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "308.jpeg" 
+    }
   },
   {
     "numero": 317,
     "titulo": "Sinto o Senhor, por fé, em mim",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 92, "maximo": 132 },
-    "partitura": { "tipo": "jpeg", "arquivo": "317.jpeg" }
+    "andamento": { 
+      "minimo": 92, 
+      "maximo": 132 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "317.jpeg" 
+    }
   },
   {
     "numero": 347,
     "titulo": "Ontem, hoje e eternamente",
     "compasso": "6/8",
     "interpretacao": null,
-    "andamento": { "minimo": 116, "maximo": 138 },
-    "partitura": { "tipo": "jpeg", "arquivo": "347.jpeg" }
+    "andamento": { 
+      "minimo": 116, 
+      "maximo": 138 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "347.jpeg"
+    }
   },
   {
     "numero": 362,
     "titulo": "Que bela herança!",
     "compasso": "9/8",
     "interpretacao": null,
-    "andamento": { "minimo": 112, "maximo": 152 },
-    "partitura": { "tipo": "jpeg", "arquivo": "362.jpeg" }
+    "andamento": { 
+      "minimo": 112, 
+      "maximo": 152 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "362.jpeg" 
+    }
   },
   {
     "numero": 205,
     "titulo": "Salvo por Seu poder",
     "compasso": "12/8",
     "interpretacao": null,
-    "andamento": { "minimo": 42, "maximo": 56 },
-    "partitura": { "tipo": "jpeg", "arquivo": "205.jpeg" }
+    "andamento": { 
+      "minimo": 42, 
+      "maximo": 56 
+    },
+    "partitura": { 
+      "tipo": "jpeg", 
+      "arquivo": "205.jpeg" 
+    }
   }
 ]
