@@ -9,8 +9,8 @@
             "maximo": 84
         },
         "partitura": {
-          "tipo": "png",
-          "arquivo": "289.png"
+          "tipo": "pdf",
+          "arquivo": "289.pdf"
         }
     },
     {
@@ -23,8 +23,8 @@
             "maximo": 60
         },
         "partitura": {
-          "tipo": "png",
-          "arquivo": "429.png"
+          "tipo": "pdf",
+          "arquivo": "429.pdf"
         }
     }
 ]

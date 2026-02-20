@@ -9,8 +9,8 @@
             "maximo": 72
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "310.png"
+            "tipo": "pdf",
+            "arquivo": "310.pdf"
         }
     },
     {
@@ -23,8 +23,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "335.png"
+            "tipo": "pdf",
+            "arquivo": "335.pdf"
         }
     },
     {
@@ -37,8 +37,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "458.png"
+            "tipo": "pdf",
+            "arquivo": "458.pdf"
         }
     },
     {
@@ -51,8 +51,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "467.png"
+            "tipo": "pdf",
+            "arquivo": "467.pdf"
         }
     },
     {
@@ -65,8 +65,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "012.png"
+            "tipo": "pdf",
+            "arquivo": "012.pdf"
         }
     },
     {
@@ -79,8 +79,8 @@
             "maximo": 66
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "034.png"
+            "tipo": "pdf",
+            "arquivo": "034.pdf"
         }
     },
     {
@@ -93,8 +93,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "043.png"
+            "tipo": "pdf",
+            "arquivo": "043.pdf"
         }
     },
     {
@@ -107,8 +107,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "048.png"
+            "tipo": "pdf",
+            "arquivo": "048.pdf"
         }
     },
     {
@@ -121,8 +121,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "144.png"
+            "tipo": "pdf",
+            "arquivo": "144.pdf"
         }
     },
     {
@@ -135,8 +135,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "186.png"
+            "tipo": "pdf",
+            "arquivo": "186.pdf"
         }
     },
     {
@@ -149,8 +149,8 @@
             "maximo": 66
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "274.png"
+            "tipo": "pdf",
+            "arquivo": "274.pdf"
         }
     },
     {
@@ -163,8 +163,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "304.png"
+            "tipo": "pdf",
+            "arquivo": "304.pdf"
         }
     },
     {
@@ -177,8 +177,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "371.png"
+            "tipo": "pdf",
+            "arquivo": "371.pdf"
         }
     },
     {
@@ -191,8 +191,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "400.png"
+            "tipo": "pdf",
+            "arquivo": "400.pdf"
         }
     },
     {
@@ -205,8 +205,8 @@
             "maximo": 69
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "411.png"
+            "tipo": "pdf",
+            "arquivo": "411.pdf"
         }
     },
     {
@@ -219,8 +219,8 @@
             "maximo": 60
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "426.png"
+            "tipo": "pdf",
+            "arquivo": "426.pdf"
         }
     },
     {
@@ -233,8 +233,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "435.png"
+            "tipo": "pdf",
+            "arquivo": "435.pdf"
         }
     },
     {
@@ -247,8 +247,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "456.png"
+            "tipo": "pdf",
+            "arquivo": "456.pdf"
         }
     },
     {
@@ -261,8 +261,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "462.png"
+            "tipo": "pdf",
+            "arquivo": "462.pdf"
         }
     },
     {
@@ -275,8 +275,8 @@
             "maximo": 72
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "464.png"
+            "tipo": "pdf",
+            "arquivo": "464.pdf"
         }
     },
     {
@@ -289,8 +289,8 @@
             "maximo": 66
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "001.png"
+            "tipo": "pdf",
+            "arquivo": "001.pdf"
         }
     },
     {
@@ -303,8 +303,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "002.png"
+            "tipo": "pdf",
+            "arquivo": "002.pdf"
         }
     },
     {
@@ -317,8 +317,8 @@
             "maximo": 92
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "053.png"
+            "tipo": "pdf",
+            "arquivo": "053.pdf"
         }
     },
     {
@@ -331,8 +331,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "056.png"
+            "tipo": "pdf",
+            "arquivo": "056.pdf"
         }
     },
     {
@@ -345,8 +345,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "084.png"
+            "tipo": "pdf",
+            "arquivo": "084.pdf"
         }
     },
     {
@@ -359,8 +359,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "087.png"
+            "tipo": "pdf",
+            "arquivo": "087.pdf"
         }
     },
     {
@@ -373,8 +373,8 @@
             "maximo": 96
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "089.png"
+            "tipo": "pdf",
+            "arquivo": "089.pdf"
         }
     },
     {
@@ -387,8 +387,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "092.png"
+            "tipo": "pdf",
+            "arquivo": "092.pdf"
         }
     },
     {
@@ -401,8 +401,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "110.png"
+            "tipo": "pdf",
+            "arquivo": "110.pdf"
         }
     },
     {
@@ -415,8 +415,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "113.png"
+            "tipo": "pdf",
+            "arquivo": "113.pdf"
         }
     },
     {
@@ -429,8 +429,8 @@
             "maximo": 112
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "119.png"
+            "tipo": "pdf",
+            "arquivo": "119.pdf"
         }
     },
     {
@@ -443,8 +443,8 @@
             "maximo": 92
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "120.png"
+            "tipo": "pdf",
+            "arquivo": "120.pdf"
         }
     },
     {
@@ -457,8 +457,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "134.png"
+            "tipo": "pdf",
+            "arquivo": "134.pdf"
         }
     },
     {
@@ -471,8 +471,8 @@
             "maximo": 88
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "156.png"
+            "tipo": "pdf",
+            "arquivo": "156.pdf"
         }
     },
     {
@@ -485,8 +485,8 @@
             "maximo": 112
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "160.png"
+            "tipo": "pdf",
+            "arquivo": "160.pdf"
         }
     },
     {
@@ -499,8 +499,8 @@
             "maximo": 88
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "164.png"
+            "tipo": "pdf",
+            "arquivo": "164.pdf"
         }
     },
     {
@@ -513,8 +513,8 @@
             "maximo": 88
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "167.png"
+            "tipo": "pdf",
+            "arquivo": "167.pdf"
         }
     },
     {
@@ -527,8 +527,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "176.png"
+            "tipo": "pdf",
+            "arquivo": "176.pdf"
         }
     },
     {
@@ -541,8 +541,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "179.png"
+            "tipo": "pdf",
+            "arquivo": "179.pdf"
         }
     },
     {
@@ -555,8 +555,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "181.png"
+            "tipo": "pdf",
+            "arquivo": "181.pdf"
         }
     },
     {
@@ -569,8 +569,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "210.png"
+            "tipo": "pdf",
+            "arquivo": "210.pdf"
         }
     },
     {
@@ -583,8 +583,8 @@
             "maximo": 88
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "212.png"
+            "tipo": "pdf",
+            "arquivo": "212.pdf"
         }
     },
     {
@@ -597,8 +597,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "221.png"
+            "tipo": "pdf",
+            "arquivo": "221.pdf"
         }
     },
     {
@@ -611,8 +611,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "225.png"
+            "tipo": "pdf",
+            "arquivo": "225.pdf"
         }
     },
     {
@@ -625,8 +625,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "236.png"
+            "tipo": "pdf",
+            "arquivo": "236.pdf"
         }
     },
     {
@@ -639,8 +639,8 @@
             "maximo": 100
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "252.png"
+            "tipo": "pdf",
+            "arquivo": "252.pdf"
         }
     },
     {
@@ -653,8 +653,8 @@
             "maximo": 92
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "270.png"
+            "tipo": "pdf",
+            "arquivo": "270.pdf"
         }
     },
     {
@@ -667,8 +667,8 @@
             "maximo": 72
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "276.png"
+            "tipo": "pdf",
+            "arquivo": "276.pdf"
         }
     },
     {
@@ -681,8 +681,8 @@
             "maximo": 88
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "292.png"
+            "tipo": "pdf",
+            "arquivo": "292.pdf"
         }
     },
     {
@@ -695,8 +695,8 @@
             "maximo": 88
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "301.png"
+            "tipo": "pdf",
+            "arquivo": "301.pdf"
         }
     },
     {
@@ -709,8 +709,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "307.png"
+            "tipo": "pdf",
+            "arquivo": "307.pdf"
         }
     },
     {
@@ -723,8 +723,8 @@
             "maximo": 100
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "314.png"
+            "tipo": "pdf",
+            "arquivo": "314.pdf"
         }
     },
     {
@@ -737,8 +737,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "337.png"
+            "tipo": "pdf",
+            "arquivo": "337.pdf"
         }
     },
     {
@@ -751,8 +751,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "349.png"
+            "tipo": "pdf",
+            "arquivo": "349.pdf"
         }
     },
     {
@@ -765,8 +765,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "355.png"
+            "tipo": "pdf",
+            "arquivo": "355.pdf"
         }
     },
     {
@@ -779,8 +779,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "360.png"
+            "tipo": "pdf",
+            "arquivo": "360.pdf"
         }
     },
     {
@@ -793,8 +793,8 @@
             "maximo": 88
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "370.png"
+            "tipo": "pdf",
+            "arquivo": "370.pdf"
         }
     },
     {
@@ -807,8 +807,8 @@
             "maximo": 76
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "374.png"
+            "tipo": "pdf",
+            "arquivo": "374.pdf"
         }
     },
     {
@@ -821,8 +821,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "376.png"
+            "tipo": "pdf",
+            "arquivo": "376.pdf"
         }
     },
     {
@@ -835,8 +835,8 @@
             "maximo": 112
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "395.png"
+            "tipo": "pdf",
+            "arquivo": "395.pdf"
         }
     },
     {
@@ -849,8 +849,8 @@
             "maximo": 63
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "416.png"
+            "tipo": "pdf",
+            "arquivo": "416.pdf"
         }
     },
     {
@@ -863,8 +863,8 @@
             "maximo": 58
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "427.png"
+            "tipo": "pdf",
+            "arquivo": "427.pdf"
         }
     },
     {
@@ -877,8 +877,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "447.png"
+            "tipo": "pdf",
+            "arquivo": "447.pdf"
         }
     },
     {
@@ -891,8 +891,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "473.png"
+            "tipo": "pdf",
+            "arquivo": "473.pdf"
         }
     },
     {
@@ -905,8 +905,8 @@
             "maximo": 84
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "475.png"
+            "tipo": "pdf",
+            "arquivo": "475.pdf"
         }
     },
     {
@@ -919,8 +919,8 @@
             "maximo": 80
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "478.png"
+            "tipo": "pdf",
+            "arquivo": "478.pdf"
         }
     },
     {
@@ -933,8 +933,8 @@
             "maximo": 138
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "021.png"
+            "tipo": "pdf",
+            "arquivo": "021.pdf"
         }
     },
     {
@@ -947,8 +947,8 @@
             "maximo": 144
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "027.png"
+            "tipo": "pdf",
+            "arquivo": "027.pdf"
         }
     },
     {
@@ -961,8 +961,8 @@
             "maximo": 120
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "035.png"
+            "tipo": "pdf",
+            "arquivo": "035.pdf"
         }
     },
     {
@@ -975,8 +975,8 @@
             "maximo": 72
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "038.png"
+            "tipo": "pdf",
+            "arquivo": "038.pdf"
         }
     },
     {
@@ -989,8 +989,8 @@
             "maximo": 144
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "102.png"
+            "tipo": "pdf",
+            "arquivo": "102.pdf"
         }
     },
     {
@@ -1003,8 +1003,8 @@
             "maximo": 138
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "112.png"
+            "tipo": "pdf",
+            "arquivo": "112.pdf"
         }
     },
     {
@@ -1017,8 +1017,8 @@
             "maximo": 120
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "141.png"
+            "tipo": "pdf",
+            "arquivo": "141.pdf"
         }
     },
     {
@@ -1031,8 +1031,8 @@
             "maximo": 126
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "154.png"
+            "tipo": "pdf",
+            "arquivo": "154.pdf"
         }
     },
     {
@@ -1045,8 +1045,8 @@
             "maximo": 138
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "163.png"
+            "tipo": "pdf",
+            "arquivo": "163.pdf"
         }
     },
     {
@@ -1059,8 +1059,8 @@
             "maximo": 138
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "183.png"
+            "tipo": "pdf",
+            "arquivo": "183.pdf"
         }
     },
     {
@@ -1073,8 +1073,8 @@
             "maximo": 138
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "206.png"
+            "tipo": "pdf",
+            "arquivo": "206.pdf"
         }
     },
     {
@@ -1087,8 +1087,8 @@
             "maximo": 132
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "213.png"
+            "tipo": "pdf",
+            "arquivo": "213.pdf"
         }
     },
     {
@@ -1101,8 +1101,8 @@
             "maximo": 126
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "260.png"
+            "tipo": "pdf",
+            "arquivo": "260.pdf"
         }
     },
     {
@@ -1115,8 +1115,8 @@
             "maximo": 144
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "265.png"
+            "tipo": "pdf",
+            "arquivo": "265.pdf"
         }
     },
     {
@@ -1129,8 +1129,8 @@
             "maximo": 144
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "280.png"
+            "tipo": "pdf",
+            "arquivo": "280.pdf"
         }
     },
     {
@@ -1143,8 +1143,8 @@
             "maximo": 138
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "369.png"
+            "tipo": "pdf",
+            "arquivo": "369.pdf"
         }
     },
     {
@@ -1157,8 +1157,8 @@
             "maximo": 112
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "421.png"
+            "tipo": "pdf",
+            "arquivo": "421.pdf"
         }
     },
     {
@@ -1171,8 +1171,8 @@
             "maximo": 100
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "422.png"
+            "tipo": "pdf",
+            "arquivo": "422.pdf"
         }
     },
     {
@@ -1185,8 +1185,8 @@
             "maximo": 138
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "438.png"
+            "tipo": "pdf",
+            "arquivo": "438.pdf"
         }
     },
     {
@@ -1199,8 +1199,8 @@
             "maximo": 144
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "061.png"
+            "tipo": "pdf",
+            "arquivo": "061.pdf"
         }
     },
     {
@@ -1213,8 +1213,8 @@
             "maximo": 144
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "121.png"
+            "tipo": "pdf",
+            "arquivo": "121.pdf"
         }
     },
     {
@@ -1227,8 +1227,8 @@
             "maximo": 50
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "177.png"
+            "tipo": "pdf",
+            "arquivo": "177.pdf"
         }
     },
     {
@@ -1241,8 +1241,8 @@
             "maximo": 144
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "193.png"
+            "tipo": "pdf",
+            "arquivo": "193.pdf"
         }
     },
     {
@@ -1255,8 +1255,8 @@
             "maximo": 100
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "007.png"
+            "tipo": "pdf",
+            "arquivo": "007.pdf"
         }
     },
     {
@@ -1269,8 +1269,8 @@
             "maximo": 112
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "083.png"
+            "tipo": "pdf",
+            "arquivo": "083.pdf"
         }
     },
     {
@@ -1283,8 +1283,8 @@
             "maximo": 108
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "086.png"
+            "tipo": "pdf",
+            "arquivo": "086.pdf"
         }
     },
     {
@@ -1297,8 +1297,8 @@
             "maximo": 126
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "237.png"
+            "tipo": "pdf",
+            "arquivo": "237.pdf"
         }
     },
     {
@@ -1311,8 +1311,8 @@
             "maximo": 132
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "294.png"
+            "tipo": "pdf",
+            "arquivo": "294.pdf"
         }
     },
     {
@@ -1325,8 +1325,8 @@
             "maximo": 126
         },
         "partitura": {
-            "tipo": "png",
-            "arquivo": "293.png"
+            "tipo": "pdf",
+            "arquivo": "293.pdf"
         }
     }
 ]
