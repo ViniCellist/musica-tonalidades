@@ -476,20 +476,6 @@
         }
     },
     {
-        "numero": 140,
-        "titulo": "Sou feliz",
-        "compasso": "6/8",
-        "interpretacao": null,
-        "andamento": {
-            "minimo": 66,
-            "maximo": 84
-        },
-        "partitura": {
-          "tipo": "png",
-          "arquivo": "140.png"
-        }
-    },
-    {
         "numero": 223,
         "titulo": "Muitos, por fé, aceitaram Jesus",
         "compasso": "6/8",

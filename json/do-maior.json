@@ -100,7 +100,7 @@
     {
         "numero": 333,
         "titulo": "Peregrino sou no mundo",
-        "compasso": "",
+        "compasso": "3/4",
         "interpretacao": null,
         "andamento": {
             "minimo": 60,
@@ -332,7 +332,7 @@
         },
         "partitura": {
           "tipo": "png",
-          "arquivo": "234.png"
+          "arquivo": "324.png"
         }
     },
     {
